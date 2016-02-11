@@ -1,0 +1,232 @@
+
+:: AGRUPAR
+
+((.unit.sizelof3[data-step="zoom"]>h1)+(.unit.sizelof3[data-step="zoom"]>p)*2)*3
+
+<div class="unit sizelof3" data-step="zoom">
+	<h1></h1>
+</div>
+<div class="unit sizelof3" data-step="zoom">
+	<p></p>
+</div>
+<div class="unit sizelof3" data-step="zoom">
+	<p></p>
+</div>
+<div class="unit sizelof3" data-step="zoom">
+	<h1></h1>
+</div>
+<div class="unit sizelof3" data-step="zoom">
+	<p></p>
+</div>
+<div class="unit sizelof3" data-step="zoom">
+	<p></p>
+</div>
+<div class="unit sizelof3" data-step="zoom">
+	<h1></h1>
+</div>
+<div class="unit sizelof3" data-step="zoom">
+	<p></p>
+</div>
+<div class="unit sizelof3" data-step="zoom">
+	<p></p>
+</div>
+
+
+::ID y CLASS #
+
+div#header+div.page+div#footer.class1
+
+<div id="header"></div>
+<div class="page"></div>
+<div id="footer" class="class1"></div>
+
+:: ATRIBUTOS PERSONALIZADOS
+
+a[title="Hello world!"]
+
+<a href="" title="Hello world!"></a>
+
+
+::ARTÍCULO DE NUMERACIÓN $
+($$$ -> 001, 002, 003...)
+
+ul>li.item$*5
+
+<ul>
+	<li class="item1"></li>
+	<li class="item2"></li>
+	<li class="item3"></li>
+	<li class="item4"></li>
+	<li class="item5"></li>
+</ul>
+
+...........
+
+ul>li.item$*3>{section-$}
+
+<ul>
+	<li class="item1">section-1</li>
+	<li class="item2">section-2</li>
+	<li class="item3">section-3</li>
+</ul>
+
+
+::TEXTO {}
+
+a{Click me}
+
+<a href="">Click me</a>
+
+a>{click}+b{Click me}
+
+<a href="">click<b>Click me</b></a>
+
+:: ETIQUETAS IMPLÍCITAS
+
+em>.info
+
+<em><span class="info"></span></em>
+<!-- Entiende que es .info forzosamente tenía que hacer referencia a una etiqueta 'span' -->
+
+ul>.item*3
+
+<ul>
+	<div class="item"></div>
+	<div class="item"></div>
+	<div class="item"></div>
+</ul>
+<!-- Igualmente aquí ha entendido que después del 'ul' seguramente habrá 'li' -->
+
+table>#row$*4>[colspan=2]
+
+<table>
+	<div id="row1">
+		<div colspan="2"></div>
+	</div>
+	<div id="row2">
+		<div colspan="2"></div>
+	</div>
+	<div id="row3">
+		<div colspan="2"></div>
+	</div>
+	<div id="row4">
+		<div colspan="2"></div>
+	</div>
+</table>
+
+<!-- Antes -->
+div.wrap>div.content
+<!-- Ahora -->
+.wrap>.content
+<div class="wrap">
+	<div class="content"></div>
+</div>
+
+:: GENERADOR DE LOREM IPSUM
+
+p*2>lorem5
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Sapiente saepe architecto voluptatem blanditiis!</p>
+
+ul.generic-list>lorem4.item*2
+<ul class="generic-list">
+	<li class="item">Lorem ipsum dolor sit.</li>
+	<li class="item">Suscipit fugiat praesentium iusto!</li>
+</ul>
+
+<!-- Por defecto, si no escribes nada: 30 palabras -->
+
+
+:: ENVOLVER TEXTO
+
+askdf kasjdf kj kkadf lkjkj
+kjsalf kjkjk erfssr kjlko
+erfss ruessa kjlksi lkjkje
+esfefss urefes esfs
+
+Seleccionamos el texto y pulsamos Ctrl+W
+
+
+:: SELECCIONAR hacia el exterior
+
+Con Ctrl+D seleccionamos una etiqueta.
+Si seguimos pulsando Ctrl+D seleccionamos el siguiente nivel superior.
+
+
+:: SELECCIONAR y CREAR una etiqueta
+
+Selecciono con Ctrl + D y luego Ctrl + W para decirle dentro de qué etiqueta queremos incluirlo.
+Por ejemplo, seleciono una etiqueta 'p' y luego Ctrl + W y escribo dentro del campo que me aparece debajo 'div'
+
+
+:: IR A UN PUNTO EN CONCRETO
+
+Ctrl + alt + (Flechas hacia delante y hacia atrás)
+
+
+:: SELECCIONAR ITEM
+
+Shift + Cmd + . (hacia delante)
+Shift + Cmd + , (hacia atrás)
+
+
+:: COMENTAR
+
+Shift + Cmd + /
+
+
+:: ELIMINAR ITEM
+
+Cmd + '
+
+:: AÑADIR EL WIDTH Y EL HEIGHT de una imagen
+
+Ctrl + shift + i
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* Márgenes de las capas "principales" */
+#buscador-google, #buscador-technorati, #buscador-google-txt, #buscador-technorati-txt { 
+margin-top:20px;
+margin-left:24px;
+}
+
+#buscador{
+margin-left:24px;
+}
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-top para separarlas entre sí
+*/
+{
+padding-top:24px;
+}
+
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-left para separarlas entre sí
+*/
+{
+padding-left:24px;	
+}
+
+#buscador-google {
+width:948px;
+height:1600px;
+float:left;
+background-color:#f4f4f4;
+}
+
+#buscador {
+width:948px;
+height:26px;
+float:left;
+}
+
+#buscador-technorati {
+width:429px;
+height:291px;
+float:left;
+background-color:#f4f4f4;
+}
+
+#buscador-google-txt {
+width:462px;
+height:260px;
+float:left;
+background-color:#f4f4f4;
+}
+
+#buscador-technorati-txt {
+width:495px;
+height:291px;
+float:left;
+background-color:#f4f4f4;
+}
+
+
+
+

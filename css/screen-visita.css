@@ -1,0 +1,364 @@
+@charset "UTF-8";
+
+/*Solo el primer bloque de cada fila - AÑADE EL MARGEN DE 24PX DE LA IZQUIERDA */
+#visita-titulo, #nafsa-1, #contenidoflash_andarin, #apunte-carboncillo-grupo, #euskalduna, #grupo-breves, #euskalduna-txt, #pegatina-grupo {
+margin-left:24px;
+}
+
+/* Solo los primeros bloques EXCEPTO LOS ÚLTIMOS DE CADA FILA - AÑADE UN MARGEN DE 24PX A LA DERECHA DE LA CAPA */
+#visita-1, #visita-2, #nafsa-1, #nafsa-2, #contenidoflash_andarin, #apunte-carboncillo-grupo, #apunte-lapiz-azul-grupo, #acuarela-grupo, #euskalduna-grupo {
+margin-right:24px;
+}
+
+#visita-1 {
+margin-left:24px;
+}
+
+#andarin-siguiente {
+	
+}
+
+/* TODOS LOS BLOQUES - AÑADE UN MARGEN DE 24px ARRIBA */
+#visita-titulo, #visita-1, #visita-2, #visita-2b, #nafsa-1, #nafsa-2, #nafsa-3, #visita-2a, #contenidoflash_andarin, #andarin-siguiente, #apunte-carboncillo-grupo, #apunte-lapiz-azul-grupo, #acuarela-grupo, #monte-prohibido-grupo, #euskalduna-grupo, #grupo-breves, #pegatina-grupo, #selzi-grupo, #pegatina-grupo {
+margin-top:24px;
+}
+
+#migas_de_pan {
+	padding-bottom:60px;	
+}
+
+#visita-titulo {
+
+width:265px;
+height:580px;
+float:left;
+}
+
+
+#visita-titulo-img {
+
+width:265px;
+height:242px;
+float:left;
+}
+
+#visita-titulo-txt {
+width:265px;
+height:338px;
+float:left;
+}
+
+#visita-1 {
+width:392px;
+height:580px;
+float:left;
+}
+
+#visita-1a {
+width:392px;
+height:398px;
+float:left;
+}
+
+#visita-1b {
+width:392px;
+height:182px;
+float:left;
+}
+
+#visita-2 {
+width:243px;
+height:580px;
+float:left;
+}
+
+#visita-2c {
+width:243px;
+height:126px;
+float:left;
+}
+
+#visita-2a {
+width:243px;
+height:240px;
+float:left;
+}
+
+#visita-2b {
+width:243px;
+height:163px;
+float:left;
+}
+
+
+
+#nafsa-1 {
+width:300px;
+height:650px;
+float:left;
+}
+
+#nafsa-1a {
+width:300px;
+height:183px;
+float:left;
+}
+
+#nafsa-1b {
+width:300px;
+height:467px;
+float:left;
+}
+
+#nafsa-2 {
+width:300px;
+height:650px;
+float:left;
+}
+
+#nafsa-2a {
+width:300px;
+height:280px;
+float:left;
+}
+
+#nafsa-2b {
+width:300px;
+height:125px;
+float:left;
+}
+
+#nafsa-2c {
+width:300px;
+height:245px;
+float:left;
+}
+
+#nafsa-3 {
+width:300px;
+height:650px;
+float:left;
+}
+
+#nafsa-3a {
+width:300px;
+height:312px;
+float:left;
+}
+
+#nafsa-3b {
+width:300px;
+height:338px;
+float:left;
+}
+
+#contenidoflash_andarin {
+width:550px;
+height:600px;
+float:left;	
+}
+
+#andarin-siguiente {
+width:374px;
+height:600px;
+float:left;	
+}
+
+#ilustracion-tecnica {
+width:374px;
+height:307px;
+float:left;	
+}
+
+
+
+#sim-romi-pegatina {
+width:374px;
+height:291px;
+float:left;	
+}
+
+#apunte-carboncillo-grupo {
+
+width:200px;
+height:616px;
+float:left;	
+}
+
+#apunte-carboncillo {
+	background-color:#09F;
+width:200px;
+height:334px;
+float:left;	
+}
+
+#apunte-carboncillo-txt {
+	background-color:#09F;
+width:200px;
+height:282px;
+float:left;	
+}
+
+#apunte-lapiz-azul-grupo {
+
+width:200px;
+height:616px;
+float:left;	
+}
+
+#apunte-lapiz-azul {
+	background-color:#CC0;
+width:200px;
+height:366px;
+float:left;	
+}
+
+#apunte-lapiz-azul-txt {
+	background-color:#CC0;
+width:200px;
+height:250px;
+float:left;	
+}
+
+#acuarela-grupo {
+
+width:235px;
+height:616px;
+float:left;	
+}
+
+#acuarela {
+	background-color:#099;
+width:235px;
+height:366px;
+float:left;	
+}
+
+#acuarela-txt {
+	background-color:#099;
+width:235px;
+height:250px;
+float:left;	
+}
+
+
+#monte-prohibido-grupo {
+width:241px;
+height:616px;
+float:left;	
+}
+
+
+#monte-prohibido {
+background-color:#FC6;
+width:241px;
+height:366px;
+float:left;	
+}
+
+#monte-prohibido-txt {
+background-color:#FC6;
+width:241px;
+height:250px;
+float:left;	
+}
+
+#euskalduna-grupo {
+width:529px;
+height:577px;
+float:left;		
+}
+
+#euskalduna {
+background-color:#FC6;
+width:529px;
+height:427px;
+float:left;		
+}
+
+#euskalduna-txt {
+width:529px;
+height:150px;
+float:left;		
+}
+
+#grupo-breves {
+width:395px;
+height:577px;
+float:left;		
+}
+
+#selzi-grupo {
+width:395px;
+height:110px;
+float:left;		
+}
+
+#selzi-web {
+width:195px;
+height:110px;
+float:left;		
+}
+
+#selzi-txt {
+width:200px;
+height:110px;
+float:left;		
+}
+
+#contenidoflash_carretilla {
+width:395px;
+height:284px;
+float:left;	
+}
+
+#carretilla-txt {
+width:395px;
+height:159px;
+float:left;	
+}
+
+#pegatina-grupo {
+background-color:#FC6;
+width:395px;
+height:577px;
+float:left;		
+}
+
+#pegatina-img {
+background-color:#FC6;
+width:395px;
+height:423px;
+float:left;		
+}
+
+#pegatina-txt {
+background-color:#FC6;
+width:395px;
+height:154px;
+float:left;		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Únicamente las filas con el float a la derecha 
+#bloque14, #bloque15, #bloque16, #bloque17, #bloque18, #bloque19, #bloque20 {
+margin-right:24px;
+}
+
+#bloque16 {
+margin-left:24px;
+} */
+
+/* CAPAS, POR EL ORDEN EN EL QUE VAN APARECIENDO */
+

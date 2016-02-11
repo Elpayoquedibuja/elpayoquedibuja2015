@@ -1,0 +1,999 @@
+@charset "UTF-8";
+
+
+/*Solo el primer bloque de cada fila - AÑADE EL MARGEN DE 24PX DE LA IZQUIERDA */
+#en_portada, #portada1, #hijos-emigrados-grupo, #bloqueKerandoj1, #quien-soy1, #sim-romi1, #berdintasuna-foto, #bloque4y5, #bloque7, #bloque14, #blogdeapuntes1, #blogdeapuntes5, #blogdeapuntes9, #seccion_kaledorkayiko-1, #seccion_blogdeapuntes, #seccion_humor, #recomen_breves, #recomendaciones, #hijos-emigrados-grupo, #quien-soy2, #sim-romi2, #bloqueKerandoj2, #bloqueKerandoj3, #bloqueKerandoj4, #bloque4y5, #bloque7, #bloque8, #bloque9, #bloque11, #bloque12, #bloque15,  #blogdeapuntes1, #blogdeapuntes2, #blogdeapuntes3, #blogdeapuntes5, #blogdeapuntes6, #blogdeapuntes7, #blogdeapuntes9, #blogdeapuntes10, #blogdeapuntes11, #berdintasuna-foto, #berdintasuna-txt, #bloque2, #bloquekerandoj4izda, #bloque10, #bloque13, #bloque18, #blogdeapuntes4, #blogdeapuntes8, #blogdeapuntes12, #bloque15, #bloque19, #bloque20, #quien-soy2, #bloqueKerandoj2, #sim-romi2, #puente-la-salve-img,  #puente-la-salve-txt, #promociones-1, #promociones-2, #promociones-3, #promociones-4, #marcapaginas1, #marcapaginas-titulo, #marcapaginas2, #marcapaginas3, #colorear-1, #colorear-2, #colorear-3, #colorear-4, #col1, #col2, #col3, #col4, #col5, #seccion_existe, #por-que-el-payo-que-dibuja, #kerandoj, #articulos-de-promocion, #intrusivo, #intrusivo-1, #intrusivo-2, #intrusivo-3, #social, #social-1, #social-2, #social-3, #ampliar-informacion, #ideas-que-cambian-el-mundo {
+	margin-top:20px;
+margin-left:24px;
+}
+
+/* A veces algunas de las capas están situaldas contiguas a las de arriba, por eso no llevan 'margin-top' */
+#certamen-txt, #bloquekerandoj4dcha, #sim-romi3, #promociones-1-pie, #promociones-2-pie, #promociones-3-pie, #promociones-4-pie, #portada {
+margin-left:24px;
+}
+
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-top para separarlas entre sí
+*/
+#seccion_kaledorkayiko-2 {
+margin-top:20px;
+}
+
+
+
+
+/* CAPAS, POR EL ORDEN EN EL QUE VAN APARECIENDO */
+
+#portada1 {
+background-color:#006699;
+	height: 480px;
+	width: 948px;
+	float:left;
+
+}
+
+#recomen_breves {
+width:216px;
+height:480px;
+float:left;
+}
+
+#recomen_breves1 {
+width:216px;
+height:324px;
+float:left;
+}
+
+#recomen_breves2 {
+width:216px;
+height:156px;
+float:left;
+
+
+}
+
+#recomendaciones {
+width:264px;
+height:480px;
+float:left;
+
+}
+
+
+
+#quien-soy1 {
+width:336px;
+height:396px;
+float:left;
+}
+
+#quien-soy2 {
+width:586px;
+height:396px;
+float:left;
+}
+
+#promociones-1 {
+width:219px;
+height:329px;
+float:left;
+}
+
+#promociones-2 {
+width:219px;
+height:329px;
+float:left;
+}
+
+#promociones-3 {
+width:219px;
+height:329px;
+float:left;
+}
+
+#promociones-4 {
+width:219px;
+height:329px;
+float:left;
+}
+
+#promociones-1-pie {
+width:219px;
+height:30px;
+float:left;
+}
+
+#promociones-2-pie {
+width:219px;
+height:30px;
+float:left;
+}
+
+#promociones-3-pie {
+width:219px;
+height:30px;
+float:left;
+}
+
+#promociones-4-pie {
+width:219px;
+height:30px;
+float:left;
+}
+
+/* Diseño social */
+
+#social {
+width:242px;
+height:258px;
+float:left;
+}
+
+#social-1 {
+width:201px;
+height:258px;
+float:left;
+}
+
+#social-2 {
+width:183px;
+height:258px;
+float:left;
+}
+
+#social-3 {
+width:250px;
+height:258px;
+float:left;
+}
+/* Diseño no intrusivo */
+
+#intrusivo {
+width:182px;
+height:400px;
+float:left;
+}
+
+#intrusivo-1 {
+width:201px;
+height:258px;
+float:left;
+}
+
+#intrusivo-2 {
+width:183px;
+height:400px;
+float:left;
+}
+
+#intrusivo-3 {
+width:310px;
+height:400px;
+float:left;
+}
+/* Marcapáginas */
+
+#marcapaginas1 {
+width:188px;
+height:400px;
+float:left;
+}
+
+#marcapaginas2 {
+width:225px;
+height:400px;
+float:left;
+}
+
+#marcapaginas3 {
+width:290px;
+height:400px;
+float:left;
+}
+
+#marcapaginas-titulo {
+width:173px;
+height:400px;
+float:left;
+}
+
+
+
+#colorear-1 {
+width:190px;
+height:224px;
+float:left;
+}
+
+#colorear-2 {
+width:180px;
+height:224px;
+float:left;
+}
+
+#colorear-3 {
+width:195px;
+height:224px;
+float:left;
+}
+
+#colorear-4 {
+width:312px;
+height:224px;
+float:left;
+}
+
+/* Existe un pueblo gitano que no conoces ??? */
+#indice {
+	width:995px;
+	height:590px;
+	float:left;
+	}
+
+
+#col1, #col2, #col3, #col4, #col5 {
+	width:170px;
+	height:570px;
+	float:left;
+	}
+
+#indice1, #indice2, #indice3, #indice4, #indice5 {
+	width:170px;
+	height:110px;
+	float:left;
+	}
+	
+	#indice1-txt, #indice2-txt, #indice3-txt, #indice4-txt, #indice5-txt {
+	width:170px;
+	height:460px;
+	float:left;
+	}
+
+
+/* Fin Existe un pueblo gitano que no conoces ??? */
+
+
+
+
+/* fin Marcapáginas */
+
+#puente-la-salve-txt {
+width:250px;
+height:506px;
+float:left;
+}
+
+#puente-la-salve-img {
+width:674px;
+height:506px;
+float:left;
+background-color:red;
+}
+
+
+
+
+
+#sim-romi1 {
+	height: 520px;
+	width: 587 px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#sim-romi2 {
+	height: 354px;
+	width: 337 px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#sim-romi3 {
+background-color:#f1efeb;
+	height: 162px;
+	width: 337px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#berdintasuna-foto {
+	width: 587 px;
+	height: 152px;
+	float:left;
+}
+
+#berdintasuna-txt {
+	width: 337px;
+	height: 152px;
+	float:left;
+}
+
+#hijos-emigrados-grupo {
+	height: 480px;
+	width: 450px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+
+#hijos-emigrados-img {
+	height: 241px;
+	width: 450px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+
+#hijos-emigrados-txt {
+	height: 239px;
+	width: 450px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque2 {
+	height: 480px;
+	width: 474px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#certamen-foto {
+	height: 480px;
+	width: 189px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+} 
+
+#certamen-txt {
+	height: 480px;
+	width: 261px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+} 
+
+
+
+#bloqueKerandoj1 {
+	height: 520px;
+	width: 180px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloqueKerandoj2 {
+	height: 520px;
+	width: 180px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloqueKerandoj3 {
+	height: 520px;
+	width: 180px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloqueKerandoj4 {
+background-color:red;
+	height: 520px;
+	width: 336px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloquekerandoj4izda {
+height: 349px;
+	width: 336px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloquekerandoj4dcha {
+	height: 171px;
+	width: 336px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque4y5 {
+background-color:#99CCCC;
+	height: 520px;
+	width: 624px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque6 {
+	height: 520px;
+	width: 300px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque6izda {
+height:260px;
+width:300px;
+position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque6dcha {
+height:260px;
+width:300px;
+position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque7 {
+background-color:white;
+	height: 480px;
+	width: 420px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+		border-bottom: 1px solid  #999;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	border-top:1px solid #999;
+}
+
+#bloque8 {
+background-image:url(../images/britney_christina.jpg);
+	height: 228px;
+	width: 328px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque8izda {
+height:228px;
+width:164px;
+position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+	
+}
+
+#bloque8dcha {
+height:228px;
+width:164px;
+position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque9 {
+background-color:#CC9966;
+	height: 228px;
+	width: 152px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque10 {
+background-color:#CC9966;
+	height: 228px;
+	width: 152px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque10izda {
+height: 173px;
+	width: 152px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+
+}
+
+#bloque10dcha {
+height: 55px;
+	width: 152px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque11 {
+	height: 228px;
+	width: 204px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque11izda {
+height:228px;
+width:75px;
+position:relative;
+left:0px;
+top:0px;
+float:left;
+}
+
+#bloque11dcha {
+height:228px;
+width:129px;
+position:relative;
+left:0px;
+top:0px;
+float:left;
+
+}
+
+#bloque13 {
+background-image:url(../images/botellon.jpg);
+	height: 228px;
+	width: 276px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque13izda {
+height:228px;
+width:50px;
+position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+
+}
+
+#bloque13dcha {
+height:228px;
+width:226px;
+position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+
+
+}
+
+
+
+#bloque14 {
+	height: 480px;
+	width: 404px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque14izda {
+width:404px;
+heignt:361px;
+position:relative;
+left:0px;
+top:0px;
+float:left;
+}
+
+#bloque14dcha {
+
+width:404px; /* 450 */
+heignt:119px;
+position:relative;
+left:0px;
+top:0px;
+float:left;
+}
+
+#bloque15 {
+background-color:white;
+	height: 480px;
+	width: 225px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque16 {
+
+	height: 288px;
+	width: 225px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque16izda {
+
+background-color:#CC6699;
+width:225px;
+height:213px;
+position:relative;
+left:0px;
+top:0px;
+float:left;
+
+}
+
+#bloque16dcha {
+
+width:225px;
+height:75px;
+position:relative;
+left:0px;
+top:0px;
+float:left;
+
+}
+
+
+
+#bloque17 {
+	height: 192px;
+	width: 225px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque17izda {
+
+background-color:#CC6699;
+width:225px;
+height:104px;
+position:relative;
+left:0px;
+top:0px;
+float:left;
+
+}
+
+#bloque17dcha {
+
+width:225px;
+height:88px;
+position:relative;
+left:0px;
+top:0px;
+float:left;
+
+}
+
+
+#bloque18 {
+
+	height: 480px;
+	width: 273px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque18izda {
+width:273px;
+height:298px;
+position:relative;
+left:0px;
+top:0px;
+float:left;
+
+}
+
+#bloque18dcha {
+width:273px;
+height:100px;
+position:relative;
+left:0px;
+top:0px;
+float:left;
+
+}
+
+#bloque18-3 {
+width:273px;
+height:82px;
+position:relative;
+left:0px;
+top:0px;
+float:left;
+}
+
+
+#bloque19 {
+background-color:#CC9966;
+	height: 144px;
+	width: 225px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#bloque20 {
+background-color:#FFFF00;
+	height: 144px;
+	width: 225px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#seccion_kaledorkayiko, #seccion_humor, #seccion_formacion, #seccion_blogdeapuntes, #seccion_existe, #por-que-el-payo-que-dibuja, #articulos-de-promocion, #kerandoj, #ampliar-informacion, #ideas-que-cambian-el-mundo {
+width:948px;
+height:auto;
+left: 0px;
+top: 0px;
+float:left;
+padding-bottom:15px;
+}
+
+#seccion_kaledorkayiko-1,#seccion_kaledorkayiko-2 {
+width:434px; /* - 40 del padding derecho */
+height:115px;
+left: 0px;
+top: 0px;
+float:left;
+padding-bottom:15px;
+padding-right:40px;
+	
+
+}
+
+
+#en_portada {
+	background-color:white;
+	height: 480px;
+	width: 420px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+	border-bottom: 1px solid  #999;
+	border-left: 1px solid #999;
+	border-right: 1px solid #333;
+	border-top:1px solid #999;
+	
+	
+}
+
+
+
+#descripcion {
+	height: 16px;
+	width: 996px;
+	padding:5px 0 2px 0;
+	color:#FFFFFF;
+}
+
+
+
+
+
+/* :::::::::::::::: BLOG DE APUNTES ::::::::::::::::  */
+
+#blogdeapuntes1, #blogdeapuntes2, #blogdeapuntes3, #blogdeapuntes4, #blogdeapuntes5, #blogdeapuntes6, #blogdeapuntes7, #blogdeapuntes8, #blogdeapuntes9, #blogdeapuntes10, #blogdeapuntes11, #blogdeapuntes12{
+	height: 348px;
+	width: 219px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+.bga-arriba {
+width:211px; /* 219-8 (8px del padding-left de abajo) */
+height:110px;
+position: relative;
+left: 0px;
+top: 0px;
+overflow:visible;
+z-index:2;
+float:left;
+vertical-align:bottom;
+padding-left:8px;
+}
+
+.bga-abajo {
+background-color:#f1efeb;
+overflow:visible;
+width:219px; /* 219-8 (8px del padding-left de abajo) */
+height:238px;
+position: relative;
+left: 0px;
+top: 0px;
+z-index:3;
+float:left;
+/* El padding-left está no dentro de la capa (para evitar que afecte al "icono"), sino en el 'p' */
+}
+
+
+
+{
+background-color:#99CC33;
+	height: 228px;
+	width: 219px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+{
+background-color:#99CC33;
+	height: 228px;
+	width: 219px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+{
+background-color:#99CC33;
+	height: 228px;
+	width: 219px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+{
+background-color:#99CC33;
+	height: 228px;
+	width: 219px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+{
+background-color:#99CC33;
+	height: 228px;
+	width: 219px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+{
+background-color:#99CC33;
+	height: 228px;
+	width: 219px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+{
+background-color:#99CC33;
+	height: 228px;
+	width: 219px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+{
+background-color:#99CC33;
+	height: 228px;
+	width: 219px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+{
+background-color:#99CC33;
+	height: 228px;
+	width: 219px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+{
+background-color:#99CC33;
+	height: 228px;
+	width: 219px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+{
+background-color:#99CC33;
+	height: 228px;
+	width: 219px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+/* Fin Blog de apuntes */
+
+
+
+
+
+#triangulo {
+width:15;
+heigth:30;
+float:left;
+margin: 4px 0 0 0;
+
+}
+
+
+
+#secciones-principales {
+	font-weight:bold;
+	color:#4472CD;
+	
+}
+
+
+

@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* Márgenes de las capas "principales" */
+#gentes-del-mundo-titulo, #gentes-del-mundo-img1, #gentes-del-mundo-img2, #miniatura1, #miniatura2, #miniatura3, #miniatura5, #miniatura6, #cuadernos-txt, #cuadernos-nerea1, #miniatura4a { 
+margin-top:20px;
+margin-left:24px;
+}
+
+ {
+margin-left:24px;
+}
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-top para separarlas entre sí
+*/
+
+#miniatura4b, #miniatura4c, #miniatura4d  {
+margin-top:20px;
+margin-left:8px;
+}
+
+#gentes-del-mundo-titulo {
+width:250px;
+height:520px;
+float:left;
+}
+
+#gentes-del-mundo-img1 {
+width:360px;
+height:520px;
+float:left;
+}
+
+#gentes-del-mundo-img2 {
+width:290px;
+height:520px;
+float:left;
+}
+
+#miniatura1 {
+width:138px;
+height:200px;
+float:left;
+}
+
+#miniatura2 {
+width:138px;
+height:200px;
+float:left;
+}
+
+#miniatura3 {
+width:138px;
+height:200px;
+float:left;
+}
+
+#miniatura4a {
+width:69px;
+height:200px;
+float:left;
+}
+
+#miniatura4b {
+width:69px;
+height:200px;
+float:left;
+}
+
+#miniatura4c {
+width:69px;
+height:200px;
+float:left;
+}
+
+#miniatura4d {
+width:69px;
+height:200px;
+float:left;
+}
+
+#miniatura6 {
+width:138px;
+height:200px;
+float:left;
+}
+
+#cuadernos-txt {
+width:250px;
+height:420px;
+float:left;
+}
+
+#cuadernos-nerea1 {
+width:250px;
+height:420px;
+float:left;
+}

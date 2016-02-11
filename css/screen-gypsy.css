@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	
+	
+}
+
+/*Solo el primer bloque de cada fila - AÑADE EL MARGEN DE 24PX DE LA IZQUIERDA */
+#azoka, #azoka-1, #azoka-2, #azoka-3, #book-group, #woman-gypsy, #puente-grupo-en, #puente-quien-en, #where-is-bilbao, #where-is-bilbao-2 {
+
+margin-top:20px;
+margin-left:24px;
+}
+
+
+
+h1 {
+	
+	font-size:60px;
+	
+}
+
+#who-i-am {
+	margin-top:20px;
+margin-left:24px;
+}
+
+#who-i-am {
+width:948px;
+height:auto;
+left: 0px;
+top: 0px;
+float:left;
+padding-bottom:15px;
+}
+
+#azoka {
+width:258px;
+height:266px;
+float:left;
+}
+
+#azoka-1 {
+width:300px;
+height:266px;
+float:left;
+}
+
+
+
+#azoka-3 {
+width:341px;
+height:266px;
+float:left;
+}
+
+#book-group {
+width:474px;
+height:700px;
+float:left;
+}
+
+#woman-gypsy {
+width:450px;
+height:700px;
+float:left;
+}
+
+#titulo_web  {
+
+background-image:url(../images/mapa-english.jpg);
+background-repeat:no-repeat;
+
+}
+
+#puente-grupo-en {
+width:250px;
+height:506px;
+float:left;
+
+}
+
+#puente-quien-en {
+width:674px;
+height:506px;
+float:left;
+
+}
+
+#where-is-bilbao-2 {
+
+width:674px;
+	height: 140px;
+	float:left;
+
+	
+}
+
+#where-is-bilbao {
+
+width: 250px;
+	height: 140px;
+	float:left;
+	
+
+	
+}
+
+
+

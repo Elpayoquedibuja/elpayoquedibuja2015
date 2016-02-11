@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+#acceder, #acceder2, #acceder3, #acceder4x, #acceder5y, #acceder6z, #bicicleta-grupo, #fad-grupo, #salvados-1, #salvados-2, #salvados-3, #patrizia, #patrizia-2, #patrizia-3, #dafne, #patrizia-4, #patrizia-5, #patrizia-intro, #patrizia-metodo-de-trabajo, #patrizia-metodo-de-trabajo-b, #kontainer-txt, #kontainer-logo, #kontainer, #kontainer-1, #kontainer-2, #kontainer-3, #programacion-kontainer, #euskalgym-grupo, #conexiones-improbables, #conexiones-euskalgym, #conexiones, #eqa, #eqa-2, #eqa-3, #eqa-4, #eqa-5, #eqa-6, #eqa-7, #eqa-8, #eqa-9, #eqa-10, #libros-digitales, #libros-digitales-2, #libros-digitales-3, #eqa-intro, #libros-digitales-intro  { 
+margin-top:20px;
+margin-left:24px;
+}
+
+#patrizia-intro, #kontainer, #programacion-kontainer, #conexiones {
+width:948px;
+height:auto;
+left: 0px;
+top: 0px;
+float:left;
+padding-bottom:15px;
+}
+
+#fad-texto-grupo, #conexiones-txt  { 
+margin-top:20px;
+}
+
+#fad-texto-2, #patrizia-3b, #patrizia-b, #patrizia-2b, #dafne-b, #patrizia-4b, #patrizia-5b, #kontainer-1-txt, #kontainer-2-txt, #kontainer-3-txt  { 
+margin-left:24px;
+}
+
+#eqa-intro, #libros-digitales-intro {
+width:948px;
+height:auto;
+left: 0px;
+top: 0px;
+float:left;
+padding-bottom:15px;
+}
+
+#eqa {
+	width:300px;
+	height:231px;
+	float:left;
+	
+}
+
+#eqa-2 {
+	width:300px;
+	height:231px;
+	float:left;
+}
+
+#eqa-3 {
+	width:300px;
+	height:231px;
+	float:left;
+}
+
+#eqa-4 {
+	width:350px;
+	height:340px;
+	float:left;
+	
+}
+
+#eqa-5 {
+	width:250px;
+	height:340px;
+	float:left;
+}
+
+#eqa-6 {
+	width:300px;
+	height:340px;
+	float:left;
+}
+
+#eqa-7 {
+	width:180px;
+	height:231px;
+	float:left;
+}
+
+
+
+#eqa-8 {
+	width:200px;
+	height:231px;
+	float:left;
+}
+
+#eqa-9 {
+	width:220px;
+	height:231px;
+	float:left;
+}
+
+#eqa-10 {
+	width:270px;
+	height:231px;
+	float:left;
+}
+
+#libros-digitales {
+	width:300px;
+	height:340px;
+	float:left;
+}
+
+#libros-digitales-2 {
+	width:300px;
+	height:340px;
+	float:left;
+}
+
+#libros-digitales-3 {
+	width:300px;
+	height:340px;
+	float:left;
+}
+

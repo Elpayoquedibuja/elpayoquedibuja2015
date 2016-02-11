@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Márgenes de las capas "principales" */
+#er_kaledorkayiko { 
+margin-top:20px;
+margin-left:24px;
+}
+
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-top para separarlas entre sí
+*/
+{
+padding-top:24px;
+}
+
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-left para separarlas entre sí
+*/
+ {
+padding-left:24px;	
+}
+
+
+/* Colores de las capas.
+Capas con texto */
+
+#certamen1-abajo, #kerandoj-descripcion, #kdk-gazteak1, #area-mujer2a, #area-mujer3, #kerandoj-web-descripcion {
+background-color:#f1efeb;	
+}
+
+#er_kaledorkayiko {
+width:948px;
+height:50px;
+left: 0px;
+top: 0px;
+float:left;
+	
+
+}
+

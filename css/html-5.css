@@ -1,0 +1,54 @@
+body {
+  background-color: #7ab8b3;
+  color: #fff;
+  font-family: 'Verdana';
+  font-size: 1em;
+}
+footer {
+  margin-top: 6em;
+}
+h1,
+h2 {
+  color: #fff;
+  font-family: 'Verdana';
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+h2 {
+  font-weight: normal;
+  border-bottom: 2px solid #60918d;
+}
+#ordenador h1::before {
+  content: "\e601";
+  font-family: 'icomoon';
+  font-weight: normal;
+}
+#movil h1::before {
+  content: "\e602";
+  font-family: 'icomoon';
+  font-weight: normal;
+}
+#evernote h1::before {
+  content: "\e600";
+  font-family: 'icomoon';
+  font-weight: normal;
+}
+#imprimir h1::before {
+  content: "\e604";
+  font-weight: normal;
+  font-family: 'icomoon';
+}
+#ordenador h1,
+#evernote h1,
+#movil h1,
+#imprimir h1 {
+  color: #def6f4;
+  font-weight: bold;
+  padding-bottom: 0.4em;
+  padding-top: 0.4em;
+}
+#tarjeta-de-visita {
+  width: 100%;
+}

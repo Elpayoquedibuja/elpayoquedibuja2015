@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Márgenes de las capas "principales" */
+#facebook, #puppy-grupo, #facebook1, #comentarios, #escribeme, #twitter_div, #friends, #twitter-titulo, #escribeme-intro, #escribeme-letreros, #boton-me-gusta, #boton-facebook, #boton-txt, #gmail, #twitter, #twitter-pre, #google  { 
+margin-top:24px;
+margin-left:24px;
+}
+
+/* NO HACER CASO DE ESTE MARGEN NORMALMENTE; SOLO PARA LAS CAPAS COMUNES AL INDEX */
+
+/* ----------------------------------------------------------------------------- */
+
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-top para separarlas entre sí
+*/
+{
+padding-top:24px;
+}
+
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-left para separarlas entre sí
+*/
+ {
+padding-left:24px;	
+}
+
+/* Hoja de estilo de 'contacto.html', en tanto que no tenga su propia hoja de estilo */
+
+#escribeme-intro {
+	width: 300px;
+	height: 405px;
+	float:left;
+}
+
+#escribeme-letreros {
+	width: 581px;
+	height: 405px;
+	float:left;
+}
+
+#escribeme {
+	width: 343px;
+	height: 405px;
+	float:left;
+}
+
+#puppy-grupo {
+	width: 350px;
+	height: 598px;
+	float:left;
+	border:1px solid #CCC;
+
+}
+#contacto {
+	width: 350px;
+	height: 537px;
+	float:left;
+}
+#facebook-me-gusta {
+	padding-top:10px;
+	width: 350px;
+	height: 58 px;
+	float:left;
+
+}
+
+#facebook1 {
+	width: 200px;
+	height: 500px; /* Tiene un padding-top de 98px */
+	float:left;
+	
+}
+
+#facebook {
+	width: 350px;
+	height: 600px;
+	float:left;
+	background-color:blue;
+}
+
+#facebook-cabecera {
+	width: 350px;
+	height: 35px;
+	float:left;
+	background-color:#94c3e6;
+
+}
+
+#facebook-internet {
+	width: 350px;
+	height: 565px;
+	float:left;
+	background-color:#addbfd /* Azul clarito cielo */
+}
+
+
+
+#twitter-titulo {
+	width: 406px;
+	height: 475px;
+	float:left;
+}
+
+
+
+#twitter_div {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	width: 350px;
+	height: 555px;
+	float:left;
+}
+
+#friends {
+	width: 144px;
+	height: 555px;
+	float:left;
+}
+
+#comentarios {
+	width: 948px;
+	height: 150px;
+	float:left;
+	padding-top:50px;
+	
+}
+
+#boton-me-gusta, #gmail, #twitter-pre, #google {
+	width: 948px;	
+	float:left;
+	padding-top:20px;	
+}
+
+#boton-me-gusta {	
+	height: 80px;	
+}
+
+#gmail {	
+	height: 80px;	
+}
+
+#google {	
+	height: 140px;
+	background-image:url(../images/contacto/flecha-google.jpg);
+	background-repeat:no-repeat;
+}
+
+#twitter-pre {	
+	height: 40px;	
+}
+
+
+#boton-facebook {
+	width: 870px;
+	height: 70px;
+	float:left;
+	padding:60px 0px 0px 078px;
+	background-image:url(../images/contacto/flechas.jpg);
+	background-repeat:no-repeat;
+	
+}
+
+#boton-txt{
+	width: 948px;
+	height: 60px;
+	float:left;
+	
+}
+/* ----------------------------------------------------------------------------- */
+
+
+
+
+
+.facebook {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:9pt;
+	font-weight:bold;
+	color:#333;
+	
+}
+
+
+
+
+
+
+

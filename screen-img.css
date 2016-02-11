@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.abajo {
+	border-bottom:solid black 1px;
+}
+
+.arriba-abajo {
+	border-top:solid black 1px;
+	border-bottom:solid black 1px;
+	}
+	
+	.volver_al_menu {
+	border:none;
+	
+	
+	
+}
+
+

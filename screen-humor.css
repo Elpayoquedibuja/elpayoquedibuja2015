@@ -1,0 +1,386 @@
+@charset "UTF-8";
+
+/*Solo el primer bloque de cada fila - AÑADE EL MARGEN DE 24PX DE LA IZQUIERDA */
+#humor-1, #prueba, #aguilera, #rolling-humor, #mujeres-tv, #mujeres-tv2, #mujeres-tv-link, #clara-ya-anda, #clara-ya-anda-img, #clara-ya-anda-txt, #athletic, #athletic-femenino, #clara-ya-anda, #clara-ya-anda-img, #clara-ya-anda-txt, #gurpegi, #gabarra-img, #gabarra-txt, #hamilton-img, #hamilton-grupo, #seccion_athletic, #iniesta-img, #iniesta-txt {
+margin-left:24px;
+}
+
+/* Solo los primeros bloques EXCEPTO LOS ÚLTIMOS DE CADA FILA - AÑADE UN MARGEN DE 24PX A LA DERECHA DE LA CAPA */
+#humor-1, #humor-2, #aguilera, #aguilera-britney-madonna, #rolling-humor {
+margin-right:24px;
+}
+
+/* TODOS LOS BLOQUES - AÑADE UN MARGEN DE 24px ARRIBA */
+#humor-1, #humor-2, #humor-3, #aguilera, #aguilera-txt, #aguilera-britney-madonna, #rolling-humor, #rolling-2, #semana-santa, #mujeres-tv, #mujeres-tv2, #mujeres-tv-link, #clara-ya-anda, #clara-ya-anda-img, #clara-ya-anda-txt, #athletic, #athletic-femenino, #clara-ya-anda, #clara-ya-anda-img, #clara-ya-anda-txt, #gurpegi, #gabarra-img, #gabarra-txt, #hamilton-img, #hamilton-grupo, #seccion_athletic, #iniesta-img, #iniesta-txt {
+margin-top:24px;
+}
+
+/* SECCIÓN ARTBOX */
+
+ #heidi-img, #heidi-txt, #calendario3, #disney-img, #disney-txt, #bob-esponja-img, #bob-esponja-txt, #sinchan-img, #sinchan-txt, #ipod-img, #ipod-txt, #calendario-indice, #calendario-intro { 
+margin-top:20px;
+margin-left:24px;
+}
+
+#zoidberg-portada-img, #zoidberg-portada-txt1 {
+margin-left:24px;
+}
+
+{
+margin-top:20px;
+}
+
+/* Fin de la sección ARTBOX */
+
+#humor-1 {
+
+width:239px;
+height:401px;
+float:left;
+}
+
+
+#humor-2 {
+
+width:239px;
+height:401px;
+float:left;
+}
+
+#humor-3 {
+
+width:421px;
+height:401px;
+float:left;
+}
+
+
+#aguilera {
+width:421px;
+height:400px;
+float:left;		
+}
+
+#aguilera-britney-madonna {
+width:268px;
+height:400px;
+float:left;	
+}
+
+#aguilera-txt {
+width:210px;
+height:400px;
+float:left;		
+}
+
+#prueba {
+	background-color:red;
+
+width:948px;
+height:401px;
+float:left;
+}
+
+#rolling-humor {
+width:504px;
+height:739px;
+float:left;		
+}
+
+#rolling-humor-principal {
+width:504px;
+height:487px;
+float:left;		
+}
+
+#rolling-humor-txt {
+width:504px;
+height:252px;
+float:left;		
+}
+
+#rolling-2 {
+width:420px;
+height:739px;
+float:left;		
+}
+
+#rolling-stones-foto {
+width:420px;
+height:315px;
+float:left;		
+}
+
+#semana-santa {
+width:420px;
+height:400px;
+float:left;		
+}
+
+#mujeres-tv {
+width:421px;
+height:400px;
+float:left;		
+}
+
+#mujeres-tv2 {
+width:238px;
+height:400px;
+float:left;		
+}
+
+#mujeres-tv-link {
+width:241px;
+height:400px;
+float:left;		
+}
+
+
+#hamilton-img {
+width:420px;
+height:400px;
+float:left;		
+}
+
+#hamilton-grupo {
+width:504px;
+height:400px;
+float:left;		
+}
+
+#hamilton-noticia-img {
+width:504px;
+height:282px;
+float:left;		
+}
+
+#hamilton-noticia-urls {
+width:504px;
+height:118px;
+float:left;		
+}
+
+#seccion_athletic {
+width:948px;
+height:auto;
+left: 0px;
+top: 0px;
+float:left;
+padding-bottom:15px;	
+}
+
+#iniesta-img {
+width:674px;
+height:727px;
+float:left;	
+}
+
+#iniesta-txt {
+width:250px;
+height:727px;
+float:left;	
+}
+
+/* Sección ARTBOX */
+/* .................. */
+
+#zoidberg-portada-img {
+width:303px;
+height:200px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#zoidberg-portada-txt1 {
+width:621px;
+height:200px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+
+#heidi-img {
+width:724px;
+height:554px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#heidi-txt {
+width:200px;
+height:554px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+
+
+
+
+#disney-img {
+width:700px;
+height:350px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#disney-txt {
+width:224px;
+height:350px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#bob-esponja-img {
+width:720px;
+height:304px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#bob-esponja-txt {
+width:204px;
+height:304px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#sinchan-img {
+width:700px;
+height:400px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#sinchan-txt {
+width:224px;
+height:400px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#ipod-img {
+width:700px;
+height:420px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#ipod-txt {
+width:224px;
+height:420px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#seccion-artbox {
+width:996px;
+height:auto;
+left:0px;
+top:0px;
+float:left;
+margin-top:60px;
+padding-top:40px;
+padding-bottom:40px;
+background-image:url(images/humor/artbox/fondo.jpg);
+background-repeat:repeat-y;
+background-color:red;
+}
+
+#sub-seccion-artbox {
+width:996px;
+height:auto;
+left:0px;
+top:0px;
+float:left;
+background-image:url(images/humor/artbox/fondo-sub-seccion.jpg);
+background-repeat:repeat-y;
+padding-top:0px;
+margin-top:0px;
+background-color:red;
+}
+
+#clara-ya-anda {
+width:425px;
+height:403px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#clara-ya-anda-img {
+width:200px;
+height:403px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#clara-ya-anda-txt {
+width:274px;
+height:403px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#athletic {
+width:421px;
+height:479px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#athletic-femenino {
+width:503px;
+height:479px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#gurpegi {
+width:240px;
+height:200px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#gabarra-img {
+width:266px;
+height:200px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#gabarra-txt {
+width:394px;
+height:200px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+
+
+
+
+
+
+/* CAPAS, POR EL ORDEN EN EL QUE VAN APARECIENDO */
+
