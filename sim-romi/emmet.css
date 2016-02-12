@@ -1,0 +1,72 @@
+m
+margin: ;
+
+m10
+margin: 10px;
+
+m10-20
+margin: 10px 20px;
+
+margin: 10px -20px;
+
+m1.5
+margin: 1.5em;
+
+m10p-5
+margin: 10% -5px; <!-- Es una errata -->
+
+p-> %
+e-> em
+x-> ex
+
+bg+
+background: #FFF url() 0 0 no-repeat;
+<!-- bacground: #FFF url(../images/....) 0 0 no-repeat;
+
+
+:: PREFIJOS PROPIETARIOS
+
+-bdrs
+-webkit-border-radius: ;
+-moz-border-radius: ;
+border-radius: ;
+
+-bdrs
+-webkit-border-radius: ;
+-moz-border-radius: ;
+border-radius: ;
+
+
+:: DUDAS
+
+m10-auto
+margin: 10px auto;
+
+m-auto-10
+margin: auto 10px;
+
+m0-auto
+margin: 0 auto;
+
+
+::INCREMENTAR / DISMINUIR
+
+Ctrl + arriba
+Ctrl + abajo
+
+/* Decimales */
+
+Alt + arriba
+Alt + abajo
+
+/* Decenas */
+
+Cmd + Alt + arriba
+Cmd + Alt + abajo
+
+
+
+
+
+
+

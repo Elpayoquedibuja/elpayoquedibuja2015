@@ -1,0 +1,1022 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Márgenes de las capas "principales" */
+#certamen1, #certamen2, #certamen3, #gazteak-grupo, #kerandoj-titulo, #kerandoj-web1, #kerandoj-web-descripcion, #kerandoj1, #kerandoj3, #kerandoj-txt, #kerandoj-usuarios1, #kdk-gazteak2, #mujer-titulo, #area-mujer1, #area-mujer2, #area-mujer3, #certamen-titulo, #certamen-fotos-2009, #certamen-todos, #certamen-txt, #certamen-fotos-2, #certamen-columna1, #certamen-columna2, #certamen-txt1, #certamen-txt2, #certamen-ani, #kerandoj-ani, #kerandoj-ani-txt, #hoyporhoy-foto, #hoyporhoy-grupo, #hoyporhoy-txt, #kdk-kalle-grupo, #kdk-gazteak, #cartel-20-aniversario-grupo, #cartel-20-aniversario-txt, #cartel-premio, #cartel-premio-txt, #triptico-premio, #triptico-txt1, #triptico-txt2, #triptico-txt1b, #deusto-grupo, #premios-txt, #goya, #goya-txt, #reconocimiento, #universidad-deusto-grupo, #en-la-uni-de-deusto, #logo-upv, #intro-premio, #victoria, #revista-kerandoj, #kerandoj-titular, #revista-hojas, #certamen-portada-img, #certamen-portada-txt, #josu-bergara, #josu-bergara-txt, #mina-del-morro-img, #mina-del-morro-txt1, #mina-del-morro-txt2, #miniatura-mina-1, #miniatura-mina-2, #miniatura-mina-3, #miniatura-mina-4, #miniatura-mina-5, #galeria-mina-del-morro { 
+margin-top:20px;
+margin-left:24px;
+}
+
+/* A veces algunas de las capas están situaldas contiguas a las de arriba, por eso no llevan 'margin-top' */
+#certamen-cd2, #certamen-fer, #certamen-jenny, #certamen-esther, #certamen-manuel, #certamen-los-que-saben, #certamen-sintetizador, #certamen-guitarra, #certamen-2009-txt {
+margin-left:24px;
+}
+
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-top para separarlas entre sí
+*/
+#kerandoj-usuarios2b, #area-mujer2a, #kerandoj-miniaturas, #kerandoj-web2a, #kerandoj-web2b, #kerandoj-web2c, #kerandoj-empresas1b, #kerandoj-ani-txt {
+padding-top:24px;
+}
+
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-left para separarlas entre sí
+*/
+#kerandoj-web2b, #kerandoj-web2c {
+padding-left:24px;	
+}
+
+
+/* Colores de las capas.
+Capas con texto */
+
+ {
+background-color:#f1efeb;	
+}
+
+
+
+
+#iconos-links {
+width:996px;
+color:yellow;
+float:left;
+padding-left:8px;
+/* Menú horizontal */
+
+
+}
+
+#iconos-links ul {
+margin: 20px 0px 0px 0px;
+padding:0px 0 0 0;
+
+}
+
+#iconos-links ul li {
+list-style:none;
+margin:0px 0 0 0;
+display: inline;
+padding: 0px 2px 0px 2px;
+margin-top:20px;
+
+}
+
+
+.iconos-nav-links {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:none;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+
+#cartel-20-aniversario-grupo {
+	width: 624px;
+	height: 640px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#cartel-20-aniversario-grupo-img {
+	width: 624px;
+	height: 444px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#cartel-20-aniversario-grupo-txt {
+	width: 624px;
+	height: 196px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#cartel-20-aniversario-txt {
+	width: 300px;
+	height: 640px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+/* PREMIO */
+
+
+#en-la-uni-de-deusto {
+	width: 380px;
+	height: 500px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+
+#logo-upv {
+	width: 280px;
+	height: 500px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+
+#intro-premio {
+	width: 240px;
+	height: 500px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+
+#cartel-premio {
+	width: 620px;
+	height: 500px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#cartel-premio-txt {
+	width: 304px;
+	height: 500px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+#triptico-premio {
+width: 400px;
+	height: 286px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+#triptico-txt1 {
+width: 250px;
+	height: 286px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+#triptico-txt1b {
+width: 250px;
+	height: 286px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+
+
+#deusto-grupo {
+width: 620px;
+	height: 455px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;		
+}
+
+#deusto-img {
+width: 620px;
+	height: 385px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;		
+}
+
+#deusto-txt {
+width: 620px;
+	height: 70px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;		
+}
+
+#triptico-txt2 {
+width: 304px;
+	height: 455px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+
+#goya {
+	width: 304px;
+	height: 297px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+#goya-txt {
+	width: 264px;
+	height: 297px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+#reconocimiento {
+	width: 332px;
+	height: 297px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+#premios-txt {
+	width: 304px;
+	height: 320px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+#mina-del-morro-img, #mina-del-morro-txt1, #mina-del-morro-txt2
+
+#mina-del-morro-img {
+	width: 375px;
+	height: 500px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+#mina-del-morro-txt1 {
+	width: 280px;
+	height: 500px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+
+#mina-del-morro-txt2 {
+	width: 245px;
+	height: 500px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+#miniatura-mina-1 {
+	width: 200px;
+	height: 60px;
+	float:left;	
+}
+
+#miniatura-mina-2 {
+	width: 100px;
+	height: 60px;
+	float:left;	
+}
+
+#miniatura-mina-3 {
+	width: 100px;
+	height: 60px;
+	float:left;	
+}
+
+#miniatura-mina-4 {
+	width: 100px;
+	height: 60px;
+	float:left;	
+}
+
+#miniatura-mina-5 {
+	width: 100px;
+	height: 60px;
+	float:left;	
+}
+
+#galeria-mina-del-morro {
+	width: 228px;
+	height: 60px;
+	float:left;	
+}
+
+
+#universidad-deusto-grupo {
+	width: 620px;
+	height: 320px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+	background-color:red;
+}
+
+#universidad-deusto-img {
+	width: 620px;
+	height: 250px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+#universidad-deusto-txt {
+	width: 620px;
+	height: 70px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+
+
+#josu-bergara {
+	width: 600px;
+	height: 250px;
+	float:left;	
+}
+
+#josu-bergara-txt {
+	width: 300px;
+	height: 250px;
+	float:left;	
+}
+
+/* CERTAMEN */
+
+#certamen-titulo {
+width:948px;
+height:80px; /* Normalemente: 50px */
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#certamen1 {
+	height: 520px;
+	width: 300px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+	
+}
+
+#certamen-portada-txt {
+	width: 344px;
+	height: 476px;
+	position: relative;
+	float:left;
+	
+}
+
+#certamen-portada-img {
+	width: 580px;
+	height: 476px;
+	position: relative;
+	float:left;
+	
+}
+
+#certamen1-arriba {
+	height: 300px;
+	width: 300px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#certamen1-abajo {
+	height: 220px;
+	width: 300px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+	
+}
+
+#certamen2 {
+	height: 520px;
+	width: 300px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#certamen3 {
+	height: 520px;
+	width: 300px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+#certamen-fotos-2009 {
+width:948px;
+height:356px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+#certamen-cd2 {
+width:192px;
+height:110px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#certamen-fer {
+width:147px;
+height:110px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#certamen-jenny {
+width:141px;
+height:110px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#certamen-esther {
+width:396px;
+height:110px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#certamen-manuel {
+width:185px;
+height:60px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#certamen-los-que-saben {
+width:127px;
+height:60px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#certamen-sintetizador {
+width:166px;
+height:60px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#certamen-guitarra {
+width:196px;
+height:60px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#certamen-2009-txt {
+width:178px;
+height:60px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#certamen-fotos-2 {
+width:746px;
+height:356px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+#certamen-txt {
+width:178px;
+height:356px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+#certamen-todos {
+width:724px;
+height:333px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+#certamen-columna1 {
+width:200px;
+height:333px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+#certamen-columna2 {
+width:200px;
+height:333px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+#certamen-ani {
+width:381px;
+height:322px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+#certamen-txt1 {
+width:160px;
+height:322px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+#certamen-txt2 {
+width:359px;
+height:322px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+
+
+/* Hoy por Hoy Bilbao */
+
+#hoyporhoy-foto {
+width:291px;
+height:357px;
+left:0px;
+top:0px;
+float:left;
+background-color:red;
+}
+
+#hoyporhoy-grupo {
+width:200px;
+height:357px;
+left:0px;
+top:0px;
+float:left;	
+background-color:yellow;
+}
+
+#hoyporhoy-dibujo {
+width:200px;
+height:217px;
+left:0px;
+top:0px;
+float:left;
+background-color:#F66;
+}
+
+#hoyporhoy-reproductor {
+width:200px;
+height:20px;
+left:0px;
+top:0px;
+float:left;
+background-color:#99C;
+}
+
+
+
+#hoyporhoy-txt-entrevista {
+width:200px;
+height:120px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#hoyporhoy-txt {
+width:409px;
+height:357px;
+left:0px;
+top:0px;
+float:left;
+}
+
+/* KERANDOJ */
+
+#kerandoj-titulo {
+width:948px;
+height:50px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#kerandoj-web1 {
+width:615px;
+height:605px;
+left: 0px;
+top: 0px;
+float:left;	
+}
+
+#kerandoj-web1a {
+width:615px;
+height:437px;
+left: 0px;
+top: 0px;
+float:left;	
+}
+
+#kerandoj-miniaturas {
+width:615px;
+height:144px;
+left: 0px;
+top: 0px;
+background-color:#666;
+}
+
+#kerandoj-web2a {
+width:189px;
+height:144px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#kerandoj-web2b {
+width:189px;
+height:144px;
+left: 0px;
+top: 0px;
+float:left;
+
+}
+
+#kerandoj-web2c {
+width:189px;
+height:144px;
+left: 0px;
+top: 0px;
+float:left;
+
+}
+
+#kerandoj-web-descripcion {
+width:309px;
+height:605px;
+left: 0px;
+top: 0px;
+float:left;	
+}
+
+#linea-kerandoj {
+width:996px;
+height:10px;	
+background-color:yellow;
+}
+
+#kerandoj-txt {
+width:234px;
+height:480px;
+left: 0px;
+top: 0px;
+float:left;
+
+}
+
+#kerandoj-triptico-mujer {
+width:234px;
+height:145px;
+left: 0px;
+top: 0px;
+
+}
+
+#kerandoj-descripcion {
+width:234px;
+height:335px;
+
+left: 0px;
+top: 0px;
+float:left;	
+background-color:#f1efeb;
+}
+
+#kerandoj1 {
+width:150px;
+height:480px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#kerandoj-empresas1a{
+width:150px;
+height:358px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#kerandoj-empresas1b {
+width:150px;
+height:98px;
+left:0px;
+top:0px;
+float:left;
+}
+
+
+#kerandoj-usuarios1 {
+width:246px;
+height:480px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#kerandoj3 {
+width:246px;
+height:480px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#kerandoj-usuarios2a {
+width:246px;
+height:282px;
+left:0px;
+top:0px;
+float:left;
+
+}
+
+#kerandoj-usuarios2b {
+width:246px;
+height:174px;
+left:0px;
+top:0px;
+float:left;
+}
+
+
+#kerandoj-ani {
+width:529px;
+height:451px;
+left:0px;
+top:0px;
+float:left;
+background-color:red;
+}
+
+#kerandoj-ani-txt {
+width:395px;
+height:427px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#victoria {
+width:315px;
+height:400px;
+float:left;
+}
+
+#revista-kerandoj {
+width:306px;
+height:400px;
+float:left;
+}
+
+#kerandoj-titular {
+width:279px;
+height:400px;
+float:left;
+}
+
+#revista-hojas {
+width:618px;
+height:128px;
+float:left;
+}
+
+/* ÁREA DE MUJER */
+
+#mujer-titulo {
+width:948px;
+height:50px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#area-mujer1 {
+width:395px;
+height:520px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+#area-mujer1a {
+width:395px;
+height:423px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+#area-mujer2a {
+width:395px;
+height:73px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+#area-mujer2 {
+width:195px;
+height:520px;
+left:0px;
+top:0px;
+background-color:#F6C;
+float:left;
+}
+
+#area-mujer3 {
+width:310px;
+height:520px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+#area-mujer3a {
+width:310px;
+height:115px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+#area-mujer3b {
+width:310px;
+height:150px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+#area-mujer3c {
+width:310px;
+height:63px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+#area-mujer3d {
+width:310px;
+height:129px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+#area-mujer3e {
+width:310px;
+height:63px;
+left:0px;
+top:0px;
+float:left;	
+}
+
+/* ÁREA DE JUVENTUD */
+
+#kdk-gazteak {
+width:948px;
+height:50px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#gazteak-grupo {
+height:480px;
+width:220px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#camiseta {
+height:189px;
+width:200px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#kdk-gazteak1 {
+height:291px;
+width:220px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#kdk-gazteak2 {
+height:480px;
+width:422px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#kdk-kalle-grupo {
+height:480px;
+width:258px;
+left: 0px;
+top: 0px;
+float:left;
+
+}
+
+#kdk-kalle-cartel {
+height:280px;
+width:258px;
+left: 0px;
+top: 0px;
+float:left;
+background-color:green;
+}
+
+#kdk-kalle-txt {
+height:200px;
+width:258px;
+left: 0px;
+top: 0px;
+float:left;
+background-color:#9CF;
+}
+
+
+
+
+
+/* Formato textos */
+
+.kdk-titulos {
+font-family:"Times New Roman", Times, serif;
+font-size:18pt;
+color:#4472CD;
+padding:5px 8px 0px 8px;
+
+}
+

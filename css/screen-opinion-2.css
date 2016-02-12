@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+
+/*Solo el primer bloque de cada fila - AÑADE EL MARGEN DE 24PX DE LA IZQUIERDA */
+#titulo-opinion {
+	margin-top:20px;
+margin-left:24px;
+}
+
+/* A veces algunas de las capas están situaldas contiguas a las de arriba, por eso no llevan 'margin-top' */
+ #sumario-opinion {
+margin-left:24px;
+}
+
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-top para separarlas entre sí
+*/
+#oyer, #comic-sans  {
+margin-top:20px;
+}
+
+
+
+
+
+/* CAPAS, POR EL ORDEN EN EL QUE VAN APARECIENDO */
+
+#columna-principal {
+width:674px;
+	height:1000px;
+	float:left;
+	margin-left:157px;
+	margin-right:165px;
+	margin-top:150px;
+	
+
+}
+
+#oyer, #comic-sans, #carlos-castilla, #almas-gemelas-televisivas, #la-excelencia, #jon-jimenez, #play, #athletic, #el-culto-de-miribilla, #el-tio-moro, #la-importancia-de-los-gestos {
+width:590px;
+	height:auto;
+	float:left;
+	padding: 0 40px 40px 40px;
+	margin:110px 0px 110px 0px;
+}
+
+#oyer {
+
+	margin-top:50px 
+}
+
+#sumario-opinion {
+
+	height:auto;
+	width: 948px;
+	float:left;
+
+}
+
+#titulo-opinion{
+
+	height:auto;
+	width: 623px;
+	float:left;
+
+}
+
+ul.noticia-lista-sin li.seguir {
+	padding-left:40px;
+	padding-bottom:15px;
+	
+}
+
+
+
+
+

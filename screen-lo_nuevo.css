@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* Márgenes de las capas "principales" */
+#tarjetas-karipen, #tarjetas-karipen-2, #tarjetas-karipen-3, #tarjetas-karipen-txt { 
+margin-top:20px;
+margin-left:24px;
+}
+
+#libro-colorear-txt, #chapas-bn-txt, #chapas-color-txt {
+margin-left:24px;
+}
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-top para separarlas entre sí
+*/
+{
+padding-top:24px;
+}
+
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-left para separarlas entre sí
+*/
+{
+padding-left:24px;	
+}
+
+#tarjetas-karipen {
+width:200px;
+height:331px;
+float:left;
+}
+
+#tarjetas-karipen-2 {
+width:200px;
+height:331px;
+float:left;
+}
+
+#tarjetas-karipen-txt {
+width:276px;
+height:331px;
+float:left;
+}
+
+#tarjetas-karipen-3 {
+width:200px;
+height:331px;
+float:left;
+}
+

@@ -1,0 +1,335 @@
+@charset "UTF-8";
+/* CSS Document */
+#acceder, #acceder2, #acceder3, #acceder4x, #acceder5y, #acceder6z, #bicicleta-grupo, #fad-grupo, #salvados-1, #salvados-2, #salvados-3, #patrizia, #patrizia-2, #patrizia-3, #dafne, #patrizia-4, #patrizia-5, #patrizia-intro, #patrizia-metodo-de-trabajo, #patrizia-metodo-de-trabajo-b, #kontainer-txt, #kontainer-logo, #kontainer, #kontainer-1, #kontainer-2, #kontainer-3, #programacion-kontainer, #euskalgym-grupo, #conexiones-improbables, #conexiones-euskalgym, #conexiones { 
+margin-top:20px;
+margin-left:24px;
+}
+
+#patrizia-intro, #kontainer, #programacion-kontainer, #conexiones {
+width:948px;
+height:auto;
+left: 0px;
+top: 0px;
+float:left;
+padding-bottom:15px;
+}
+
+#fad-texto-grupo, #conexiones-txt  { 
+margin-top:20px;
+}
+
+#fad-texto-2, #patrizia-3b, #patrizia-b, #patrizia-2b, #dafne-b, #patrizia-4b, #patrizia-5b, #kontainer-1-txt, #kontainer-2-txt, #kontainer-3-txt  { 
+margin-left:24px;
+}
+
+#acceder {
+	width:289px;
+	height:231px;
+	background-color:red;
+	/*border:1px solid #333;*/
+	float:left;
+	
+}
+
+#acceder2 {
+	width:300px;
+	height:231px;
+	float:left;
+}
+
+#acceder3 {
+	width:302px;
+	height:231px;
+	float:left;	
+}
+
+#acceder4x {
+	width:300px;
+	height:400px;
+	float:left;	
+}
+
+#acceder5y {
+	width:300px;
+	height:400px;
+	float:left;	
+}
+
+#acceder6z {
+	width:300px;
+	height:400px;
+	float:left;	
+}
+
+#bicicleta-grupo {
+	width:290px;
+	height:996px;
+	float:left;	
+}
+
+#bicicleta-img {
+	width:290px;
+	height:170px;
+	float:left;	
+}
+
+#bicicleta-texto {
+	width:290px;
+	height:240px;
+	float:left;	
+}
+
+#rumble {
+	width:290px;
+	height:198px;
+	float:left;	
+	
+}
+
+#rumble-txt {
+	width:290px;
+	height:448px;
+	float:left;
+	
+}
+
+#fad-grupo {
+	
+	padding:24px;
+	width:586px;
+	height:1008px;
+	float:left;	
+}
+
+#fad-img {
+	text-align:center;
+	width:586px;
+	height:600px;
+	float:left;	
+}
+
+#fad-texto-grupo {
+	width:586px;
+	height:324px;
+	float:left;	
+}
+
+#fad-texto-1 {
+	text-align:right;
+	background-color:#FF3;
+	width:281px;
+	height:324px;
+	float:left;	
+}
+
+#fad-texto-2 {
+	background-color:#FF3;
+	width:281px;
+	height:324px;
+	float:left;	
+}
+
+#salvados-1 {
+	width:373px;
+	height:182px;
+	float:left;
+	
+}
+
+#salvados-2 {
+	width:263px;
+	height:182px;
+	float:left;
+	
+}
+
+#salvados-3 {
+	width:264px;
+	height:182px;
+	float:left;
+	
+}
+
+/* Patrizia primera fila */
+
+#patrizia {
+	width:300px;
+	height:471px;
+	float:left;
+}
+
+#patrizia-2 {
+	width:345px;
+	height:471px;
+	float:left;
+}
+
+#patrizia-3 {
+	width:255px;
+	height:471px;
+	float:left;
+}
+
+/* Patrizia primera fila B */
+
+#patrizia-b {
+	width:300px;
+	height:240px;
+	float:left;
+}
+
+#patrizia-2b {
+	width:345px;
+	height:240px;
+	float:left;
+}
+
+#patrizia-3b {
+	width:255px;
+	height:240px;
+	float:left;
+}
+
+/* Patrizia segunda fila  */
+
+#dafne {
+	width:285px;
+	height:471px;
+	float:left;
+}
+
+#patrizia-4 {
+	width:300px;
+	height:471px;
+	float:left;
+}
+
+#patrizia-5 {
+	width:315px;
+	height:471px;
+	float:left;
+}
+
+#dafne-b {
+	width:285px;
+	height:300px;
+	float:left;
+}
+
+#patrizia-4b {
+	width:300px;
+	height:300px;
+	float:left;
+}
+
+#patrizia-5b {
+	width:315px;
+	height:300px;
+	float:left;
+}
+
+#patrizia-metodo-de-trabajo {
+	width:374px;
+	height:480px;
+	float:left;
+	
+}
+
+#patrizia-metodo-de-trabajo-b {
+	width:550px;
+	height:480px;
+	float:left;
+	
+}
+
+#kontainer-logo {
+	width:550px;
+	height:312px;
+	float:left;
+	
+}
+
+#kontainer-txt {
+	width:374px;
+	height:312px;
+	float:left;
+}
+
+#kontainer-1, #kontainer-2, #kontainer-3 {
+	width:300px;
+	height:270px;
+	float:left;
+
+	
+}
+
+#kontainer-1-txt, #kontainer-2-txt, #kontainer-3-txt {
+	width:300px;
+	height:380px;
+	float:left;
+
+	
+}
+
+#euskalgym-grupo, #conexiones-improbables, #conexiones-euskalgym {
+	width:300px;
+	height:600px;
+	float:left;
+	
+}
+
+#conexiones-improbables  {
+	
+	background-color:red;
+}
+#euskalgym-img {
+	width:300px;
+	height:450px;
+	float:left;
+	background-color:#69F;
+	
+}
+
+#euskalgym-grupo-txt {
+	width:300px;
+	height:150px;
+	float:left;
+	background-color:blue;
+}
+#euskalgym-img-grupo {
+	width:130px;
+	height:150px;
+	float:left;
+	background-color:yellow;
+}
+#euskalgym-txt-grupo {
+	width:170px;
+	height:150px;
+	float:left;
+	
+}
+
+/* Conexiones Euskalgym: Tercera columna */
+
+
+#euskalgym-txt {
+	width:300px;
+	height:110px;
+	float:left;	
+}
+#conexiones-txt {
+	width:300px;
+	height:470px;
+	float:left;
+	background-color:red;
+	
+}
+
+
+
+
+
+
+
+
+

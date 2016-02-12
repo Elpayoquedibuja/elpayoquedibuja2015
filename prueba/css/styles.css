@@ -1,0 +1,320 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+
+body{
+	background-color: #7a75ac;
+}
+
+body img {
+	max-width: 427px;
+}
+
+article {
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+}
+
+article img {
+	border: solid 1px #382e63;
+}
+
+article p a {
+	font-size: 0.8em;
+	margin-top: 0;
+	padding: 0 0 0 1.1em;
+
+}
+
+aside {
+	/*background-color: yellow;*/
+	display: none;
+
+}
+header {
+	background-image: url("../images/logo-small.jpg");
+	background-repeat: no-repeat;*/
+	background-color: #b1accc;
+	height: 345px;
+	display: inline-block;
+	margin:0;
+	padding:0;
+	width: 100%;
+		}
+
+h1 {
+	color:#382e63;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+
+}
+
+
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+strong {
+	color:#342a54;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+nav
+{
+	background-color: #a39cc0;
+	bottom: 0;
+	height: auto;
+	left: 0;
+	width: 100%;
+}
+
+nav ul
+{
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+
+
+}
+
+nav ul li
+{
+
+	background-color: #a39cc0; /* Color de fondo del menú de navegación */
+	border-left: 1px solid #372e63;
+	border-right: 1px solid #372e63;
+	display: inline-block;
+		height: 42px;
+	padding: 0.5em 0;
+	text-align: center;
+	width: 49%;
+}
+
+nav li:nth-child(1), li:nth-child(3){
+	border-left: none;
+}
+
+nav li:nth-child(1) {
+	border-right: none;
+}
+nav li:nth-child(1), nav li:nth-child(2) {
+border-bottom: 1px solid #7c78aa;
+}
+
+nav li:nth-child(3) {
+	border-right: none;
+}
+
+
+nav li:nth-child(2), li:nth-child(4){
+	border-right: none;
+}
+
+nav li:nth-child(5){
+	display: none;
+}
+
+nav ul li a
+{
+
+border-radius: 0.5em;
+color: #342a54;
+width: 40%;
+text-decoration: none;
+transition all 0.5s linear;
+-webkit-transition: all 0.5s linear;
+}
+
+nav ul li a:hover
+{
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+	transform: scale(1.2) rotate(-5deg);
+	-webkit-transform: scale(1.2) rotate(-5deg);
+
+}
+
+section {
+	display: inline-block;
+	height: auto;
+	padding: 0 1em 1em 1em;
+}
+
+#container {
+	border: 4px solid #392f64;
+	border-radius: 0.5em;
+	height: auto;
+	margin: 10px auto;
+
+}
+
+#container img {
+	width: 100%;
+	border-radius: 0.5em;
+}
+
+#related-link {
+	background-color: #1c1c1c;
+	background: url("../images/logo-diputacion.jpg") no-repeat 5% center,
+	url("../images/fondo.jpg");
+	background-size: 15%,10%;
+    -webkit-box-shadow: 0px 0px 25px #000;
+	-moz-box-shadow: 0px 0px 25px #000;
+	box-shadow: 0px 0px 25px #000;
+	color: white;
+	display: inline-block;
+	font-family: 'Open Sans', 'sans-serif';
+	height: 4em;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#related-link img {
+	vertical-align: middle;
+	padding: 0;
+	margin: 0;
+	}
+
+#related-link p {
+	color: #969696;
+	font-size: 1em;
+	margin: 0;
+	text-align: center;
+	}
+
+/* -------------------------------------------------------------------- */
+
+@media all and (min-width: 48em) {
+
+body {
+	background-color: yellow;
+
+}
+
+article {
+	/*background-color: red;*/
+	border-right: solid 1px #a39cc0;
+	display: inline-block;
+	padding: 0 12% 0 4%;
+	width: 68%;
+	}
+
+article img {
+	max-width: 60%;
+}
+aside {
+	display: inline-block;
+	vertical-align: top;
+	width: 31%;
+}
+
+aside ul {
+	list-style-type: none;
+	padding-left: 1em;
+
+}
+
+aside ul li {
+padding: 1em 0 0 0;
+
+}
+
+aside ul li img {
+	border: solid 1em #8e89bb; /*#a39cc0; */
+}
+
+.imagen {
+
+	padding-right: 100px;
+}
+
+footer {
+	background-color: #7c78aa;
+	height: 80px;
+	width: 100%;
+
+}
+
+header {
+	background-image: url("../images/logo-berdintasuna.png");
+	background-size: 20%;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-position: 500px;
+	background-color: #b1accc;
+}
+
+
+nav ul {
+	background-color: #a39cc0;
+	text-align: center;
+}
+
+nav ul li
+
+{
+	background-color: #a39cc0;
+	border-radius: 0;
+	border: 1px solid #7c78aa;
+	border-top: none;
+	display: inline-block;
+	margin: 0.2em 0;
+	padding: 0.5em 0;
+	text-align: center;
+	width: 19%;
+}
+
+nav li:nth-child(1) {
+  	border-left: 1px solid #7c78aa;
+}
+
+nav li:nth-child(2) {
+  	border-right: 1px solid #7c78aa;
+}
+
+nav li:nth-child(5){
+	display: inline-block;
+}
+
+#container {
+	background-color: #7a75ac; /*#b1accc;*/
+max-width: 1000px;
+
+}
+
+#related-link {
+	display: none;
+}
+
+} /* Fin Media querie */
+
+
+
+
+
+
+
+
+
+
+
+
+

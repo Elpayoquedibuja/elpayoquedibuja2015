@@ -1,0 +1,524 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* NOTAS:
+
+	Estoy controlando el tamaño de las fotos del 'aside',
+	limitando su tamaño con la propiedad 'padding-right'
+	de la clase que he creado para ellas: '.imagen'.
+
+	RECUERDA:
+
+	En el segundo media querie he hecho desaparecer
+	el segundo, el tercero y el cuarto elemento
+	del 'aside'.
+
+*/
+
+
+body{
+	background-color: #7a75ac;
+	margin: 0;
+}
+
+body img {
+	max-width: 427px;
+}
+
+article {
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+}
+
+article img {
+	border: solid 1px #382e63;
+}
+
+article p a {
+	font-size: 0.8em;
+	margin-top: 0;
+	padding: 0 0 0 1.1em;
+
+}
+
+aside {
+	/*background-color: yellow;*/
+	display: none;
+
+}
+
+footer {
+	background-color: #b1accc;
+	-moz-box-shadow: 0 0 0.8em #252525;
+-webkit-box-shadow: 0 0 0.8em #252525;
+        box-shadow: 0 0 0.8em #252525;
+	height: auto;
+	margin: 2em 0 0 0;
+	padding: 0.5em 1em 0.4em 1em;
+	width: 100%;
+
+}
+
+footer li {
+	list-style: none;
+	display: inline-block;
+	padding-left: 0.8em;
+
+
+}
+
+footer p i.icon-heart {
+	color:#7c78aa;
+	padding-left: 0em;
+		padding-right: 0em;
+}
+
+
+
+footer p {
+
+	font-size: 1em;
+	font-weight: normal;
+	text-align: Left;
+
+
+}
+
+footer p a {
+
+	font-size: 1em;
+	font-weight: normal;
+
+
+}
+header {
+	background-image: url("../images/logo-small.jpg");
+	background-repeat: no-repeat;*/
+	background-color: #b1accc;
+	height: 345px;
+	display: inline-block;
+	margin:0;
+	padding:0;
+	width: 100%;
+		}
+
+h1 {
+	color:#382e63;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+
+}
+
+i.icon-facebook-sign, i.icon-phone-sign {
+	color:#7c78aa;
+
+    font-size: 18px;
+}
+
+ i.icon-heart {
+    font-size: 24px;
+}
+
+
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+strong {
+	color:#342a54;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+nav
+{
+	background-color: #a39cc0;
+	bottom: 0;
+	height: auto;
+	left: 0;
+	width: 100%;
+}
+
+nav ul
+{
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+
+
+}
+
+nav ul li
+{
+
+	background-color: #a39cc0; /* Color de fondo del menú de navegación */
+	border-left: 1px solid #7c78aa;
+	border-right: 1px solid #7c78aa;
+	display: inline-block;
+		height: 42px;
+	padding: 0.8em 0;
+	text-align: center;
+	width: 49%;
+}
+
+nav li:nth-child(1), li:nth-child(3){
+	border-left: none;
+}
+
+nav li:nth-child(1), li:nth-child(3)  {
+	border-right: none;
+}
+nav li:nth-child(1), nav li:nth-child(2) {
+border-bottom: 1px solid #7c78aa;
+}
+
+
+
+
+nav li:nth-child(2), li:nth-child(4){
+	border-right: none;
+}
+
+nav li:nth-child(5){
+	display: none;
+}
+
+nav ul li a
+{
+
+border-radius: 0.5em;
+color: #342a54;
+width: 40%;
+text-decoration: none;
+transition all 0.5s linear;
+-webkit-transition: all 0.5s linear;
+}
+
+nav ul li a:hover
+{
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+	transform: scale(1.2) rotate(-5deg);
+	-webkit-transform: scale(1.2) rotate(-5deg);
+
+}
+
+section {
+	display: inline-block;
+	height: auto;
+	padding: 0 1em 1em 1em;
+}
+
+#container {
+	border: 4px solid #392f64;
+	border-radius: 0.5em;
+	height: auto;
+	margin: 10px auto;
+
+}
+
+#container img {
+	width: 100%;
+	border-radius: 0.5em;
+}
+
+#imagen-premio {
+	background-image: url("images/rosa-premio-berdintasuna.jpg");
+	background-repeat: no-repeat;
+	height: 220px;
+
+
+
+}
+
+#related-link {
+
+
+	background-color: black;
+
+	bottom: auto;
+    -webkit-box-shadow: 0px 0px 25px #000;
+	-moz-box-shadow: 0px 0px 25px #000;
+	box-shadow: 0px 0px 25px #000;
+	color: white;
+	display: inline-block;
+	font-family: 'Open Sans', 'sans-serif';
+	height: auto;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: -377px;
+	width: 100%;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+
+#related-link img {
+	vertical-align: middle;
+	padding: 0;
+	margin: 0;
+	}
+
+#related-link p {
+	color: #969696;
+	font-size: 1em;
+	margin: 0;
+	text-align: center;
+	}
+
+	.off-canvas {
+
+	}
+
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+@media all and (min-width: 28em) {
+
+body {
+	background-color: red;
+
+	}
+
+
+article {
+	display: inline-block;
+	padding: 0 6% 0 4%;
+	width: 100%;
+	}
+
+article img {
+	 max-width: 60%;
+}
+
+aside {
+	display: inline-block;
+}
+
+aside li:nth-child(2), aside li:nth-child(3), aside li:nth-child(4) {
+	display: none;
+}
+
+
+
+aside ul {
+	list-style-type: none;
+	padding-left: 1em;
+
+}
+
+aside ul li img {
+	border: solid 1em #8e89bb; /*#a39cc0; */
+
+}
+
+footer {
+	padding-left: 2em;
+}
+
+footer li {
+	padding-left: 2em;
+}
+
+
+
+header {
+	background-image: url("../images/logo-berdintasuna.png");
+	background-size: 20%;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-position: 440px;
+	background-color: #b1accc;
+}
+
+header img {
+	width: 70%;
+}
+
+#container {
+	background-color: #7a75ac; /*#b1accc;*/
+max-width: 1000px;
+width: 99%;
+
+}
+
+#imagen-premio {
+	background-image: url("images/sim-romi-premio-berdintasuna.jpg");
+	background-repeat: no-repeat;
+	height: 220px;
+	}
+
+.imagen {
+
+	padding-right: 60%;
+	padding-top: 2em;
+}
+
+
+
+.texto-adicional::before {
+	content:"Más información:";
+	color:#382e63;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+
+
+}
+
+} /* Fin del media-queri de 28 */
+
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+
+
+@media all and (min-width: 48em) {
+
+body {
+	background-color: yellow;
+
+}
+
+article {
+
+	border-right: solid 1px #a39cc0;
+	display: inline-block;
+	height: auto;
+	padding: 0 12% 0 4%;
+	width: 68%;
+	}
+
+article img {
+	max-width: 60%;
+}
+aside {
+	display: inline-block;
+	vertical-align: top;
+	width: 31%;
+}
+
+
+
+aside ul {
+	list-style-type: none;
+	padding-left: 1em;
+
+}
+
+aside ul li {
+padding: 1em 0 0 0;
+
+}
+
+aside li:nth-child(1) {
+	display: none;
+}
+
+aside li:nth-child(2), aside li:nth-child(3), aside li:nth-child(4) {
+	display: inline-block;
+}
+
+aside ul li img {
+	border: solid 1em #8e89bb; /*#a39cc0; */
+
+}
+
+.imagen {
+
+	padding-right: 100px;
+
+}
+
+footer {
+	background-image: url("../images/logo-sim-romi-footer.png");
+    background-repeat: no-repeat;
+	padding-left: 15em;
+}
+
+
+
+header {
+	background-image: url("../images/logo-berdintasuna.png");
+	background-size: 20%;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-position: 500px;
+	background-color: #b1accc;
+}
+
+
+nav ul {
+	background-color: #a39cc0;
+	text-align: center;
+}
+
+nav ul li
+
+{
+	background-color: #a39cc0;
+	border-radius: 0;
+	border: 1px solid #7c78aa;
+	border-top: none;
+	display: inline-block;
+	margin: 0.2em 0;
+	padding: 0.5em 0;
+	text-align: center;
+	width: 19%;
+}
+
+nav li:nth-child(1) {
+  	border-left: 1px solid #7c78aa;
+}
+
+nav li:nth-child(2) {
+  	border-right: 1px solid #7c78aa;
+}
+
+nav li:nth-child(5){
+	display: inline-block;
+}
+
+#container {
+	background-color: #7a75ac; /*#b1accc;*/
+max-width: 1000px;
+
+}
+
+#related-link {
+	display: none;
+}
+
+
+} /* Fin Media querie */
+
+
+
+
+
+
+
+
+
+
+
+
+

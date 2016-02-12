@@ -1,0 +1,730 @@
+@charset "UTF-8";
+/* CSS Document */
+#acceder, #acceder2, #acceder3, #acceder4x, #acceder5y, #acceder6z,  #mina-del-morro-img, #mina-del-morro-txt1, #mina-del-morro-txt2, #miniatura-mina-1, #miniatura-mina-2, #miniatura-mina-3, #miniatura-mina-4, #miniatura-mina-5, #galeria-mina-del-morro, #gracias-colegios1, #gracias-colegios2-grupo, #gracias-colegios3, #gracias-colegios4-grupo, #fecha-6-octubre, #fecha-12-octubre, #acceder4, #acceder5, #acceder6, #acceder7, #acceder8, #acceder9, #la-mujer-gitana-1, #la-mujer-gitana-2, #links-escuela, #links-escuela2, #links-escuela3, #mari-carmen-jimenez-1, #mari-carmen-jimenez-2, #mari-carmen-jimenez-3, #inaki-sieira-1, #inaki-sieira-2, #inaki-sieira-3, #ricardo-barrul-1, #ricardo-barrul-2, #ricardo-barrul-3, #tobogan-txt, #tobogan, #periodista, #formacion-academica-1, #formacion-academica-2, #formacion-academica-3, #nosotras-las-artemisas, #cuentame-txt, #cuentame-dibujo, #artemisa-1, #artemisa-2, #artemisa-3, #sarah-carmona, #sarah-carmona-1, #sarah-carmona-2, #sarah-carmona-3, #padres-madres-1, #padres-madres-2, #padres-madres-3, #cuentame-creditos, #principal-1, #principal-2, #principal-3, #a-la-escuela-1, #a-la-escuela-2, #a-la-escuela-3, #a-la-escuela-4, #a-la-escuela-5, #a-la-escuela-6, #col1, #col2, #col3, #col4, #col5, #editorial, #jornadas-vi, #jornadas-vi-2, #jornadas-vi-1-grupo, #sarah-carmona-perfil, #sarah-carmona { 
+margin-top:20px;
+margin-left:24px;
+}
+
+#fecha-6-octubre, #fecha-12-octubre, #fecha-22-diciembre, #fecha-31-enero  {
+margin-top:20px;
+margin-left:24px;
+}
+
+#indice6, #indice8, #indice9, #principal-1, #principal-2, #principal-3 {
+margin-top:20px;
+}
+
+#centros-titulo, #acceder-titulo, #la-mujer-gitana-titulo, #formacion-academica, #creditos-hablemos-del-futuro, #creditos-a-la-escuela-voy, #sumario, #nosotras-las-artemisa {
+margin-left:24px;
+}
+
+#migas_de_pan {
+	padding-bottom:60px;
+	
+}
+#nosotras-flecha, #nosotras-las-artemisas-txt {
+margin-top:20px;	
+}
+
+	
+/* Subsección 'Nosotras las artemisa' */
+#seccion-nosotras{
+width:996px;
+height:1980px;
+left:0px;
+top:0px;
+float:left;
+margin-top:60px;
+padding-top:40px;
+padding-bottom:40px;
+background-image:url(images/humor/artbox/fondo.jpg);
+background-repeat:repeat-y;
+background-color:#6da9b8;
+}
+
+#sub-seccion-nosotras {
+width:996px;
+height:auto;
+left:0px;
+top:0px;
+float:left;
+background-image:url(images/humor/artbox/fondo-sub-seccion.jpg);
+background-repeat:repeat-y;
+padding-top:0px;
+margin-top:0px;
+background-color:#6da9b8;
+}
+
+/* --- fin subsección 'Nosotras las artemisa' */
+
+/* script */
+
+
+#indice {
+	width:995px;
+	height:580px;
+	float:left;
+	}
+
+#col1, #col2, #col3, #col4, #col5 {
+	width:170px;
+	height:540px;
+	float:left;
+	}
+
+#indice1, #indice2, #indice3, #indice4, #indice5, #indice6, #indice7, #indice8, #indice9, #indice10 {
+	width:170px;
+	height:110px;
+	float:left;
+	}
+	
+	#indice7 {
+	width:170px;
+	height:180px;
+	float:left;
+	}
+	
+	#indice2-txt, #indice5-txt {
+	width:170px;
+	height:450px;
+	float:left;
+	} 
+	
+	#indice1-txt, #indice6-txt, #indice7-txt, #indice10-txt {
+	width:170px;
+	height:160px;
+	float:left;
+	}
+	#indice3-txt, #indice4-txt {
+	width:170px;
+	height:175px;
+	float:left;
+	} 
+	#indice8-txt, #indice9-txt {
+	width:170px;
+	height:145px;
+	float:left;
+	}
+	
+	
+
+
+#script-fecha {
+	width:948px;
+	height:80px;
+	float:left;
+	}
+	
+	#migas_de_pan {
+		height:10px;
+		
+	}
+
+/* La importancia de los centros educativos escolares */
+
+
+
+#centros-titulo, #acceder-titulo, #la-mujer-gitana-titulo, #formacion-academica {
+	width:874px;
+	height:80px;
+	float:left;
+	padding-top:4px;
+	}
+	
+#fecha1, #fecha2, #fecha3, #fecha4 {
+	
+	width:50px;
+	height:60px;
+	
+}
+	
+#fecha-6-octubre, #fecha-12-octubre, #fecha-22-diciembre, #fecha-31-enero {
+	width:50px;
+	height:60px;
+	float:left;
+}
+
+/* PRINCIPAL */
+
+#principal-1 {
+	width:300px;
+	height:999px;	
+	float:left;	
+}
+
+#principal-2 {
+	width:300px;
+	height:999px;	
+	float:left;	
+}
+
+#principal-3 {
+	width:300px;
+	height:999px;	
+	float:left;	
+}
+
+/* la educación escolar */
+#formacion-academica-1 {
+	width:300px;
+	height:231px;	
+	float:left;	
+}
+
+#formacion-academica-2 {
+	width:300px;
+	height:231px;	
+	float:left;
+	
+}
+
+#formacion-academica-3 {
+	width:300px;
+	height:231px;	
+	float:left;
+	
+}
+
+/* ...... */
+
+#periodista {
+width:260px;
+	height:302px;	
+	float:left;
+			
+}
+
+#tobogan {
+width:363px;
+	height:302px;	
+	float:left;
+			
+}
+
+#tobogan-txt {
+width:277px;
+	height:302px;	
+	float:left;
+			
+}
+
+/* Nueva línea */
+
+#padres-madres-1 {
+width:300px;
+	height:700px;	
+	float:left;			
+}
+
+#padres-madres-2 {
+width:300px;
+	height:700px;	
+	float:left;			
+}
+
+#padres-madres-3 {
+width:300px;
+	height:700px;	
+	float:left;			
+}
+
+
+/* Nueva línea */
+
+#inaki-sieira-1 {
+width:214px;
+	height:240px;	
+	float:left;
+			
+}
+
+#inaki-sieira-2 {
+	width:358px;
+	height:240px;	
+	float:left;
+	
+	
+	
+}
+
+#inaki-sieira-3 {
+	
+	width:328px;
+	height:240px;
+	float:left;
+	
+}
+
+#creditos-hablemos-del-futuro, #creditos-a-la-escuela-voy,  #editorial {
+	
+	width:948px;
+	height:40px;
+	float:left;
+	
+}
+
+#sumario {
+	
+	width:948px;
+	height:90px;
+	float:left;
+}
+
+/* ...... */
+
+#ricardo-barrul-1 {
+	width:360px;
+	height:264px;
+	float:left;
+	
+}
+
+#ricardo-barrul-2 {
+	width:385px;
+	height:264px;	
+	float:left;
+	background-color:#aac270;
+	
+}
+
+#ricardo-barrul-3 {
+	width:155px;
+	height:264px;	
+	float:left;
+	background-color:#aac270;	
+	
+}
+
+/* A la escuela voy */
+
+#a-la-escuela-1 {
+	width:328px;
+	height:240px;
+	float:left;
+	
+}
+
+#a-la-escuela-2 {
+	width:277px;
+	height:240px;	
+	float:left;
+	
+	
+}
+
+#a-la-escuela-3 {
+	width:295px;
+	height:240px;	
+	float:left;
+	
+	
+}
+
+/* Línea 2 */
+
+#a-la-escuela-4 {
+	width:340px;
+	height:620px;
+	float:left;
+	
+}
+
+#a-la-escuela-5 {
+	width:325px;
+	height:620px;	
+	float:left;
+	
+	
+}
+
+#a-la-escuela-6 {
+	width:235px;
+	height:620px;	
+	float:left;
+	
+	
+}
+
+/* A la escuela voy */
+
+
+/* Artículo 3: La mujer gitana */
+#la-mujer-gitana-1 {
+	width:250px;
+	height:231px;
+	
+	float:left;	
+}
+
+#la-mujer-gitana-2 {
+	width:674px;
+	height:231px;
+	
+	float:left;
+	
+}
+
+/* Nosotras las artemisa */
+
+#artemisa-1 {
+	width:300px;
+	height:300px;
+	float:left;
+	
+}
+
+#artemisa-2 {
+	width:300px;
+	height:300px;
+	float:left;
+	
+}
+
+#artemisa-3 {
+	width:300px;
+	height:300px;
+	float:left;
+	
+}
+
+#nosotras-las-artemisas {
+	width:566px;
+	height:799px;	
+	float:left;
+	background-color:#C90;
+}
+
+#nosotras-flecha {
+	width:35px;
+	height:799px;	
+	float:left;
+}
+
+#nosotras-las-artemisas-txt {
+	width:347px;
+	height:799px;	
+	float:left;	
+}
+
+
+
+#cuentame-txt {
+	width:474px;
+	height:600px;	
+	float:left;	
+}
+
+#cuentame-dibujo {
+	width:450px;
+	height:600px;	
+	float:left;	
+}
+
+#cuentame-creditos {
+	width:948px;
+	height:80px;	
+	float:left;	
+}
+
+
+
+#mari-carmen-jimenez-1 {
+	width:328px;
+	height:240px;	
+	float:left;	
+}
+
+#mari-carmen-jimenez-2 {
+	width:298px;
+	height:240px;
+	
+	float:left;
+	background-color:#b5a5c7;
+	
+}
+
+#mari-carmen-jimenez-3 {
+	width:274px;
+	height:240px;
+	
+	float:left;
+	background-color:#b5a5c7;
+	
+}
+
+/* FIN Artículo 3: La mujer gitana */
+
+
+/* Sarah Carmona */
+
+#nosotras-las-artemisa {
+	width:948px;
+	height:80px;	
+	float:left;
+	
+}
+
+#sarah-carmona-perfil {
+	width:413px;
+	height:286px;	
+	float:left;
+}
+
+#sarah-carmona {
+	width:511px;
+	height:286px;	
+	float:left;
+	
+}
+
+
+
+#sarah-carmona-1 {
+	width:300px;
+	height:1140px;	
+	float:left;
+}
+
+#sarah-carmona-2 {
+	width:300px;
+	height:1140px;	
+	float:left;
+}
+
+
+#sarah-carmona-3 {
+	width:300px;
+	height:1140px;	
+	float:left;
+}
+
+/* Fin Sarah Carmona */
+/* La Tuli - VI Jornadas de Mujer Sim Romi */
+
+
+#jornadas-vi-1-grupo {
+	width:340px;
+	height:620px;	
+	float:left;
+}
+
+#jornadas-vi-1a {
+	width:340px;
+	height:433px;	
+	float:left;
+}
+
+#jornadas-vi-1b {
+	width:340px;
+	height:187px;	
+	float:left;
+}
+
+
+#jornadas-vi-2 {
+	width:275px;
+	height:620px;	
+	float:left;
+}
+
+#jornadas-vi {
+	width:285px;
+	height:620px;	
+	float:left;
+}
+/* */
+/* Artículo 2: ACCEDER */
+
+
+
+#acceder {
+	width:289px;
+	height:231px;
+	background-color:red;
+	/*border:1px solid #333;*/
+	float:left;
+	
+}
+
+#acceder2 {
+	width:300px;
+	height:231px;
+	float:left;
+}
+
+#acceder3 {
+	width:311px;
+	height:231px;
+	float:left;	
+}
+
+
+
+#acceder4, #acceder5, #acceder6 {
+	width:300px;
+	height:500px;
+	float:left;
+	background-color:#FCF;
+}
+
+#acceder7, #acceder8, #acceder9 {
+	width:300px;
+	height:300px;
+	float:left;
+	
+}
+
+
+
+/* Artículo 1: La importancia de los centros educativos */
+
+
+
+#mina-del-morro-img {
+	width: 375px;
+	height: 500px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+#mina-del-morro-txt1 {
+	width: 280px;
+	height: 500px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+
+#mina-del-morro-txt2 {
+	width: 245px;
+	height: 500px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float:left;	
+}
+
+#miniatura-mina-1 {
+	width: 200px;
+	height: 60px;
+	float:left;	
+}
+
+#miniatura-mina-2 {
+	width: 100px;
+	height: 60px;
+	float:left;	
+}
+
+#miniatura-mina-3 {
+	width: 100px;
+	height: 60px;
+	float:left;	
+}
+
+#miniatura-mina-4 {
+	width: 100px;
+	height: 60px;
+	float:left;	
+}
+
+#miniatura-mina-5 {
+	width: 100px;
+	height: 60px;
+	float:left;	
+}
+
+#galeria-mina-del-morro {
+	width: 228px;
+	height: 60px;
+	float:left;	
+}
+
+#gracias-colegios1 {
+	width:186px;
+	height:690px;
+	float:left;
+	
+}
+
+#gracias-colegios2-grupo {
+	width:151px;
+	height:640px;
+	float:left;	
+}
+
+#gracias-colegios2 {
+	width:151px;
+	height:350px;
+	float:left;	
+}
+
+#gracias-colegios2-txt {
+	width:151px;
+	height:340px;
+	float:left;	
+}
+
+#gracias-colegios3 {
+	width:350px;
+	height:690px;
+	float:left;
+	
+}
+
+#gracias-colegios4-grupo {
+	width:189px;
+	height:640px;
+	float:left;	
+}
+
+#gracias-colegios4a-txt {
+	width:189px;
+	height:270px;
+	float:left;	
+}
+
+#gracias-colegios4 {
+	width:189px;
+	height:281px;
+	float:left;	
+}
+
+#gracias-colegios4-txt {
+	width:189px;
+	height:139px;
+	float:left;	
+}
+
+#links-escuela {
+	width:300px;
+	height:300px;
+	float:left;
+	
+}
+
+#links-escuela2 {
+	width:300px;
+	height:300px;
+	float:left;
+	
+}
+
+#links-escuela3 {
+	width:300px;
+	height:300px;
+	float:left;
+	
+}
+
+
+
+
+
+
+
+

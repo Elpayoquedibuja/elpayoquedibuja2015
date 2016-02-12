@@ -1,0 +1,1464 @@
+@charset "UTF-8";
+/* Márgenes de las capas "principales" */
+#abril8-taller-dibujo1, #abril8-taller-dibujo2, #libro-colorear-txt, #chapas-txt, #chapas2, #chapas3, #postal-free-txt, #postal-free-img, #hijos-emigrados, #chica-gitana-tradicional, #libro-grupo, #abril-8-foto1, #abril-8-foto2, #abril-8-foto3, #salvapantallas-el, #salvapantallas-ella, #salvapantallas-txt, #calendario1, #calendario2, #calendario3, #calendario1b, #calendario2b, #calendario3b, #calendario-indice, #calendario-intro, #enero-febrero, #marzo, #mes1, #mes2, #mes3, #mes4, #mes5, #mes6, #abril, #mayo-junio, #julio-agosto, #septiembre, #octubre, #noviembre, #diciembre, #grupo-esperando, #pilar, #txukela-grupo, #txukela-txt, #marcapaginas-grupo, #marcapaginas-tipo1, #marcapaginas-tipo2, #marcapaginas-aniversario-txt, #marcapaginas-aniversario-img1, #marcapaginas-aniversario-img2, #fotoprix-grupo, #fotoprix-1, #fotoprix-2, #marcapaginas-india-txt, #osane_y_sobrina, #osane_sobrina, #shrek, #columna1, #columna2, #columna3, #postal-free-local, #postal-free-local2, #postal-free-local-txt, #marcapaginas1, #marcapaginas2, #marcapaginas3, #marcapaginas-titulo, #kerman-bloque1, #kerman-bloque2, #miniaturas-marcadores1, #miniaturas-marcadores2, #miniaturas-marcadores3, #miniaturas-marcadores4, #miniaturas-marcadores5, #chapas-bn-grupo, #chapas-color-grupo, #cursos-de-palmas, #marca-lineas, #chapas, #abanicos, #euskera, #imagina, #abanicos-grupo-1, #abanicos-grupo-2 { 
+margin-top:20px;
+margin-left:24px;
+}
+
+#libro-colorear-txt, #mes1-txt, #mes2-txt, #mes3-txt, #mes4-txt, #mes5-txt, #mes6-txt, #calendario1-txt, #calendario2-txt, #calendario3-txt, #calendario1b-txt, #calendario2b-txt, #calendario3b-txt, #calendario-portada-img, #calendario-portada-txt1, #calendario-portada-txt2, #esperando, #dibujo, #spiderman, #josu-premio, #kerman2, #kerman3, #kerman5, #kerman6 {
+margin-left:24px;
+}
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-top para separarlas entre sí
+*/
+#agosto, #junio, #grupo-entrega-premio, #kerman4, #kerman5, #kerman6, #febrero, #chapas-color-txt  {
+margin-top:20px;
+}
+
+#seccion-calendario {	
+}
+
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-left para separarlas entre sí
+*/
+{
+padding-left:24px;	
+}
+
+#abril8-taller-dibujo1 {
+width:300px;
+height:224;
+float:left;
+}
+
+#abril8-taller-dibujo2 {
+width:300px;
+height:224;
+float:left;
+}
+
+#libro-colorear-txt {
+width:300px;
+height:224px;
+float:left;
+}
+
+#abril-8-foto1 {
+width:300px;
+height:200px;
+float:left;
+}
+
+#abril-8-foto2 {
+width:300px;
+height:200px;
+float:left;
+}
+
+#abril-8-foto3 {
+width:300px;
+height:200px;
+float:left;
+}
+
+#columna1 {
+width:300px;
+height:700px;
+float:left;
+}
+
+#columna2 {
+width:300px;
+height:700px;
+float:left;
+}
+
+#columna3 {
+width:300px;
+height:700px;
+float:left;
+}
+
+#chica-gitana-tradicional {
+width:450px;
+height:620px;
+float:left;
+}
+
+#libro-grupo {
+width:474px;
+height:620px;
+float:left;
+}
+
+#libro-img {
+width:474px;
+height:388px;
+float:left;
+}
+
+#libro-txt {
+width:474px;
+height:232px;
+float:left;
+}
+
+
+#chapas-txt {
+width:300px;
+height:224px;
+float:left;
+}
+
+#grupo-esperando {
+width:591px;
+height:300px;
+float:left;	
+}
+
+/* Grupo esperando-dibujo */
+
+#esperando-dibujo {
+width:591px;
+height:221px;
+float:left;
+}
+
+#tv {
+width:296px;
+height:221px;
+float:left;
+}
+
+#esperando {
+width:107px;
+height:221px;
+float:left;
+}
+
+#dibujo {
+width:140px;
+height:221px;
+float:left;
+}
+
+/*Fin grupo esperando - dibujo*/
+
+#grupo-entrega-premio {
+width:591px;
+height:353px;
+float:left;
+}
+
+#jugando {
+width:192px;
+height:270px;
+float:left;
+}
+
+#spiderman {
+width:149px;
+height:270px;
+float:left;
+}
+
+#josu-premio {
+width:202px;
+height:270px;
+float:left;
+}
+
+/* Fin grupo Josu */
+
+#esperando-txt {
+width:591px;
+height:83px;
+float:left;
+}
+
+#pilar {
+width:333px;
+height:594px;
+float:left;
+}
+
+#kerman-bloque1 {
+width:364px;
+height:254px;
+float:left;
+}
+
+#kerman-txt {
+width:364px;
+height:254px;
+float:left;
+}
+
+
+#kerman-bloque2 {
+width:582px;
+height:254px;
+float:left;
+}
+
+#kerman1 {
+width:170px;
+height:117px;
+float:left;
+}
+
+#kerman2 {
+width:170px;
+height:117px;
+float:left;
+}
+
+#kerman3 {
+width:170px;
+height:117px;
+float:left;
+}
+
+#kerman4 {
+width:170px;
+height:117px;
+float:left;
+}
+
+#kerman5 {
+width:170px;
+height:117px;
+float:left;
+}
+
+#kerman6 {
+width:170px;
+height:117px;
+float:left;
+}
+
+
+/* Marcapáginas presentación */
+
+#marcapaginas1 {
+width:158px;
+height:400px;
+float:left;
+}
+
+#marcapaginas2 {
+width:225px;
+height:400px;
+float:left;
+}
+
+#marcapaginas3 {
+width:290px;
+height:400px;
+float:left;
+}
+
+#marcapaginas-titulo {
+width:203px;
+height:400px;
+float:left;
+}
+
+
+/* Marcapáginas línea 1 */
+/* ..Marcapáginas "titulo" grupo */
+#marcapaginas-grupo {
+width:250px;
+height:613px;
+float:left;
+}
+
+#marcapaginas-img {
+width:250px;
+height:318px;
+float:left;
+background-color:red;
+}
+
+#marcapaginas-txt {
+width:250px;
+height:295px;
+float:left;
+}
+/* ..Marcapáginas "tipo1" */
+
+#marcapaginas-tipo1 {
+width:325px;
+height:613px;
+float:left;
+}
+
+#marcapaginas-img-tipo1 {
+width:325px;
+height:243px;
+float:left;
+}
+
+
+#marcapaginas-txt-tipo1 {
+width:325px;
+height:370px;
+float:left;
+}
+
+/* ..Marcapáginas "tipo2" */
+
+#marcapaginas-tipo2 {
+width:325px;
+height:613px;
+float:left;
+background-color:yellow;
+}
+
+#marcapaginas-img-tipo2 {
+width:325px;
+height:243px;
+float:left;
+}
+
+
+#marcapaginas-txt-tipo2 {
+width:325px;
+height:370px;
+float:left;
+}
+
+/* marcapáginas línea 2 */
+
+#marcapaginas-aniversario-txt {
+width:300px;
+height:497px;
+float:left;
+}
+
+#marcapaginas-aniversario-img1 {
+width:300px;
+height:497px;
+float:left;
+}
+
+#marcapaginas-aniversario-img2 {
+width:300px;
+height:497px;
+float:left;
+}
+
+/* marcapáginas línea 3 */
+
+#fotoprix-grupo {
+width:300px;
+height:307px;
+float:left;
+}
+
+#fotoprix-img {
+width:300px;
+height:261px;
+float:left;
+}
+
+#fotoprix-pie {
+width:300px;
+height:46px;
+float:left;
+}
+
+#fotoprix-1 {
+width:300px;
+height:307px;
+float:left;
+}
+
+#fotoprix-2 {
+width:300px;
+height:307px;
+float:left;
+}
+
+#miniaturas-marcadores1 {
+width:160px;
+height:120px;
+float:left;
+}
+
+#miniaturas-marcadores2 {
+width:160px;
+height:120px;
+float:left;
+}
+
+#miniaturas-marcadores3 {
+width:160px;
+height:120px;
+float:left;
+}
+
+#miniaturas-marcadores4 {
+width:160px;
+height:120px;
+float:left;
+}
+
+#miniaturas-marcadores5 {
+width:212px;
+height:120px;
+float:left;
+}
+
+
+
+
+
+#txukela-txt {
+width:324px;
+height:495px;
+float:left;
+}
+
+#txukela-grupo {
+width:600px;
+height:495px;
+float:left;
+}
+
+#txukela {
+width:600px;
+height:404px;
+float:left;
+}
+
+#txukela-traduccion {
+width:600px;
+height:91px;
+float:left;
+}
+
+
+
+/* CHAPAS */
+
+#chapas2 {
+width:300px;
+height:224px;
+float:left;
+}
+
+#chapas3 {
+width:300px;
+height:224px;
+float:left;
+}
+
+#chapas-bn-grupo {
+width:462px;
+height:674px;
+float:left;	
+}
+
+#chapas-bn {
+width:462px;
+height:454px;
+float:left;
+}
+
+#chapas-color {
+width:462px;
+height:220px;
+float:left;
+}
+
+#chapas-color-grupo {
+width:462px;
+height:674px;
+float:left;	
+}
+
+#chapas-bn-txt {
+width:462px;
+height:180px;
+float:left;
+}
+
+
+#chapas-color-txt {
+width:462px;
+height:474px;
+float:left;
+}
+
+#osane_sobrina {
+width:170px;
+height:250px;
+float:left;
+}
+
+#osane_y_sobrina {
+width:333px;
+height:250px;
+float:left;
+}
+
+#shrek {
+width:397px;
+height:250px;
+float:left;
+}
+
+/* SALVAPANTALLAS */
+
+#salvapantallas-el {
+width:350px;
+height:350px;
+float:left;
+}
+
+#salvapantallas-ella {
+width:350px;
+height:350px;
+float:left;
+}
+
+#salvapantallas-txt {
+width:200px;
+height:350px;
+float:left;
+}
+
+
+
+
+/* HIJOS EMIGRADOS */
+
+
+#hijos-emigrados, #cursos-de-palmas {
+width:948px;
+height:auto;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#postal-free-txt {
+width:274px;
+height:480px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#postal-free-img {
+width:650px;
+height:480px;
+float:left;
+}
+
+#postal-free-local {
+width:307px;
+height:410px;
+float:left;
+}
+
+#postal-free-local2 {
+width:343px;
+height:410px;
+float:left;
+}
+
+#postal-free-local-txt {
+width:250px;
+height:410px;
+float:left;
+}
+
+
+
+
+/* Sección Calendario */
+/* .................. */
+
+#calendario-portada-img {
+width:300px;
+height:215px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#calendario-portada-txt1 {
+width:300px;
+height:215px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#calendario-portada-txt2 {
+width:300px;
+height:215px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#calendario1 {
+width:300px;
+height:426px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#calendario2 {
+width:300px;
+height:426px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#calendario3 {
+width:300px;
+height:426px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#calendario1-txt {
+width:300px;
+height:1000px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#calendario2-txt {
+width:300px;
+height:1000px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#calendario3-txt {
+width:300px;
+height:1000px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#calendario1b {
+width:300px;
+height:426px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#calendario2b {
+width:300px;
+height:426px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#calendario3b {
+width:300px;
+height:426px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#calendario1b-txt {
+width:300px;
+height:200px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#calendario2b-txt {
+width:300px;
+height:200px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#calendario3b-txt {
+width:300px;
+height:200px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+
+#enero-febrero {
+width:380px;
+height:880px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#enero {
+width:380px;
+height:542px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#febrero {
+width:380px;
+height:420px;
+left:0px;
+top:0px;
+float:left;
+background-color:#6681b1;
+}
+
+/* FILA 1 */
+
+#index-calend-fila1 {
+width:380px;
+height:112px;
+float:left;
+
+}
+
+#portada-index{
+width:65px;
+height:112px;
+float:left;
+padding:0px 0px 0px 5px;
+}
+
+#portada-index-img {
+width:65px;
+height:93px;
+float:left;
+
+}
+
+#portada-index-txt {
+width:65px;
+height:19px;
+float:left;
+
+}
+
+#portada2-index{
+width:65px;
+height:112px;
+float:left;
+padding:0px 0px 0px 11px;
+}
+
+#portada2-index-img {
+width:65px;
+height:93px;
+float:left;
+
+}
+
+#portada2-index-txt {
+width:65px;
+height:19px;
+float:left;
+
+}
+
+#enero-index{
+width:65px;
+height:112px;
+float:left;
+padding:0px 0px 0px 11px;
+}
+
+#enero-index-img {
+width:65px;
+height:93px;
+float:left;
+
+}
+
+#enero-index-txt {
+width:65px;
+height:19px;
+float:left;
+
+}
+
+#febrero-index{
+width:65px;
+height:112px;
+float:left;
+padding:0px 0px 0px 11px;
+}
+
+#febrero-index-img {
+width:65px;
+height:93px;
+float:left;
+
+}
+
+#febrero-index-txt {
+width:65px;
+height:19px;
+float:left;
+
+}
+
+#marzo-index{
+width:65px;
+height:112px;
+float:left;
+padding:0px 0px 0px 11px;
+}
+
+#marzo-index-img {
+width:65px;
+height:93px;
+float:left;
+
+}
+
+#marzo-index-txt {
+width:65px;
+height:19px;
+float:left;
+
+}
+
+
+#index-calend-fila2 {
+width:380px;
+height:112px;
+float:left;
+}
+
+#abril-index{
+width:65px;
+height:112px;
+float:left;
+padding:0px 0px 0px 5px;
+}
+
+#abril-index-img {
+width:65px;
+height:93px;
+float:left;
+
+}
+
+#abril-index-txt {
+width:65px;
+height:19px;
+float:left;
+
+}
+
+#mayo-index{
+width:65px;
+height:112px;
+float:left;
+padding:0px 0px 0px 11px;
+}
+
+#mayo-index-img {
+width:65px;
+height:93px;
+float:left;
+
+}
+
+#mayo-index-txt {
+width:65px;
+height:19px;
+float:left;
+
+}
+
+
+
+
+#junio-index{
+width:65px;
+height:112px;
+float:left;
+padding:0px 0px 0px 11px;
+}
+
+#junio-index-img {
+width:65px;
+height:93px;
+float:left;
+
+}
+
+#junio-index-txt {
+width:65px;
+height:19px;
+float:left;
+
+}
+
+#julio-index{
+width:65px;
+height:112px;
+float:left;
+padding:0px 0px 0px 11px;
+}
+
+#julio-index-img {
+width:65px;
+height:93px;
+float:left;
+
+}
+
+#julio-index-txt {
+width:65px;
+height:19px;
+float:left;
+
+}
+
+#agosto-index{
+width:65px;
+height:112px;
+float:left;
+padding:0px 0px 0px 11px;
+}
+
+#agosto-index-img {
+width:65px;
+height:93px;
+float:left;
+
+}
+
+#agosto-index-txt {
+width:65px;
+height:19px;
+float:left;
+
+}
+
+
+
+
+#index-calend-fila3 {
+width:380px;
+height:112px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#septiembre-index{
+width:65px;
+height:112px;
+float:left;
+padding:0px 0px 0px 5px;
+}
+
+#septiembre-index-img {
+width:65px;
+height:93px;
+float:left;
+
+}
+
+#septiembre-index-txt {
+width:65px;
+height:19px;
+float:left;
+
+}
+
+#octubre-index{
+width:65px;
+height:112px;
+float:left;
+padding:0px 0px 0px 11px;
+}
+
+#octubre-index-img {
+width:65px;
+height:93px;
+float:left;
+
+}
+
+#octubre-index-txt {
+width:65px;
+height:19px;
+float:left;
+
+}
+
+#noviembre-index{
+width:65px;
+height:112px;
+float:left;
+padding:0px 0px 0px 11px;
+}
+
+#noviembre-index-img {
+width:65px;
+height:93px;
+float:left;
+
+}
+
+#noviembre-index-txt {
+width:65px;
+height:19px;
+float:left;
+
+}
+
+
+#diciembre-index{
+width:65px;
+height:112px;
+float:left;
+padding:0px 0px 0px 11px;
+}
+
+#diciembre-index-img {
+width:65px;
+height:93px;
+float:left;
+
+
+}
+
+#diciembre-index-txt {
+width:65px;
+height:19px;
+float:left;
+
+}
+
+#ver-index{
+width:65px;
+height:112px;
+float:left;
+padding:0px 0px 0px 11px;
+}
+
+#ver-index-img {
+width:65px;
+height:93px;
+float:left;
+}
+
+#ver-index-txt {
+width:65px;
+height:19px;
+float:left;
+
+}
+
+#marzo {
+width:540px;
+height:960px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#marzo-img {
+width:540px;
+height:770px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#marzo-txt {
+width:540px;
+height:212px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+
+#mes1 {
+width:138px;
+height:197px;
+left: 0px;
+top: 0px;
+float:left;
+
+}
+
+#mes2 {
+width:138px;
+height:197px;
+left: 0px;
+top: 0px;
+float:left;
+
+}
+
+#mes3 {
+width:138px;
+height:197px;
+left: 0px;
+top: 0px;
+float:left;
+
+}
+
+#mes4 {
+width:138px;
+height:197px;
+left: 0px;
+top: 0px;
+float:left;
+
+}
+
+#mes5 {
+width:138px;
+height:197px;
+left: 0px;
+top: 0px;
+float:left;
+
+}
+
+#mes6 {
+width:138px;
+height:197px;
+left: 0px;
+top: 0px;
+float:left;
+
+}
+
+#mes1-txt {
+width:138px;
+height:197px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#mes2-txt {
+width:138px;
+height:197px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#mes3-txt {
+width:138px;
+height:197px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#mes4-txt {
+width:138px;
+height:197px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#mes5-txt {
+width:138px;
+height:197px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#mes6-txt {
+width:138px;
+height:197px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#abril {
+width:620px;
+height:876px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#mayo-junio {
+width:300px;
+height:876px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+
+#mayo {
+width:300px;
+height:428px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#junio {
+width:300px;
+height:428px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#julio-agosto {
+width:300px;
+height:876px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#julio {
+width:300px;
+height:428px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#agosto {
+width:300px;
+height:428px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#septiembre {
+width:620px;
+height:876px;
+left: 0px;
+top: 0px;
+float:left;
+}
+
+#octubre {
+width:300px;
+height:428px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#noviembre {
+width:300px;
+height:428px;
+left:0px;
+top:0px;
+float:left;
+}
+
+#diciembre {
+width:300px;
+height:428px;
+left:0px;
+top:0px;
+float:left;
+background-color:red;
+}
+
+#seccion-calendario {
+width:996px;
+height:auto;
+left:0px;
+top:0px;
+float:left;
+margin-top:60px;
+padding-top:40px;
+padding-bottom:40px;
+background-image:url(../images/productos_kaledorkayiko/calendario/fondo.jpg);
+background-repeat:repeat-y;
+background-color:red;
+}
+
+#sub-seccion-calendario {
+width:996px;
+height:3310px;
+left:0px;
+top:0px;
+float:left;
+background-image:url(../images/productos_kaledorkayiko/calendario/fondo-sub-seccion.jpg);
+background-repeat:repeat-y;
+padding-top:0px;
+margin-top:0px;
+background-color:red;
+}
+
+#cursos, #cursos-2 {
+width:952px;
+height:1123px;
+float:left;
+text-align:center;
+}
+
+#cursos-2 {
+
+height:1200px;
+
+}
+
+/* ***************************************************************************************
+/* ***************************************************************************************
+/* SIM ROMI - SIM ROMI - SIM ROMI - SIM ROMI
+/* ***************************************************************************************
+/* ***************************************************************************************
+
+/* Márgenes de las capas "principales" */
+#gentes-del-mundo-titulo, #gentes-del-mundo-img1, #gentes-del-mundo-img2, #miniatura1, #miniatura2, #miniatura3, #miniatura5, #miniatura6, #cuadernos-txt, #cuadernos-nerea1, #miniatura4a, #cuadernos-3 { 
+margin-top:20px;
+margin-left:24px;
+}
+
+ {
+margin-left:24px;
+}
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-top para separarlas entre sí
+*/
+
+#miniatura4b, #miniatura4c, #miniatura4d  {
+margin-top:20px;
+margin-left:8px;
+}
+
+#gentes-del-mundo-titulo {
+width:250px;
+height:520px;
+float:left;
+}
+
+#gentes-del-mundo-img1 {
+width:360px;
+height:520px;
+float:left;
+}
+
+#gentes-del-mundo-img2 {
+width:290px;
+height:520px;
+float:left;
+}
+
+#miniatura1 {
+width:138px;
+height:200px;
+float:left;
+}
+
+#miniatura2 {
+width:138px;
+height:200px;
+float:left;
+}
+
+#miniatura3 {
+width:138px;
+height:200px;
+float:left;
+}
+
+#miniatura4a {
+width:69px;
+height:200px;
+float:left;
+}
+
+#miniatura4b {
+width:69px;
+height:200px;
+float:left;
+}
+
+#miniatura4c {
+width:69px;
+height:200px;
+float:left;
+}
+
+#miniatura4d {
+width:69px;
+height:200px;
+float:left;
+}
+
+#miniatura6 {
+width:138px;
+height:200px;
+float:left;
+}
+
+#cuadernos-txt {
+width:250px;
+height:420px;
+float:left;
+}
+
+#cuadernos-nerea1 {
+width:171px;
+height:420px;
+float:left;
+}
+
+#cuadernos-3 {
+width:480px;
+height:420px;
+float:left;
+}
+
+#marca-lineas, #chapas, #abanicos, #euskera, #imagina {
+width:948px;
+height:auto;
+left: 0px;
+top: 0px;
+float:left;
+padding-bottom:15px;
+}
+
+#abanicos-grupo-1 {
+width:449px;
+height:365px;
+float:left;
+
+}
+
+#abanicos-grupo-2 {
+width:475px;
+height:365px;
+float:left;
+
+}
+
+
