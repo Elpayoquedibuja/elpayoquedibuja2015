@@ -126,6 +126,15 @@ padding:5px 8px 0px 8px;
 	
 }
 
+.editorial {
+	background-color: #000000;
+	color: #ffffff;
+	font-family: verdana;
+	font-size: 13px;
+	height: 23px;
+	width: 80px;
+}
+
 .creditos {
 	
 	font-family:Verdana, Arial, Helvetica, sans-serif;
