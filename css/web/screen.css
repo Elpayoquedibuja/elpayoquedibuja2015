@@ -1225,6 +1225,19 @@ height:28px;
 	
 }
 
+#titulos {
+color: #565455;
+height:auto;
+float:left;
+font-family: verdana;
+font-size: 30px;
+left: 0px;
+margin-left: 45px;
+padding-bottom:15px;	
+top: 0px;
+width:948px;
+}
+
 .fecha {
  text-align: center;
  width:250px;
