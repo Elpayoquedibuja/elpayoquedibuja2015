@@ -278,13 +278,23 @@ float:left;
 padding-bottom:15px;	
 }
 
-#seccion_experiencia, #anteriormente, #alter-ego, #pero {
+#seccion_experiencia, #anteriormente, #alter-ego {
 width:948px;
 height:auto;
 left: 0px;
 top: 0px;
 float:left;
 padding-bottom:15px;	
+}
+
+#pero {
+width:948px;
+height:auto;
+left: 0px;
+top: 0px;
+float:left;
+padding-bottom: 0px;
+padding-top: 15px;	
 }
 
 #museo-logo {
