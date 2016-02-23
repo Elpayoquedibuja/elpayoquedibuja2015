@@ -1,0 +1,415 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Márgenes de las capas "principales" */
+#foto-inicio-grupo, #redox, #artevia, #folleto, #folleto-grupo, #arco, #seccion_formacion, #seccion_experiencia, #museo-logo, #recomendaciones_breves, #museo-foto-grupo, #formacion-dibujo-txt, #capitan-rom-txt, #capitan-rom-grupo, #hermion-grupo, #capitan-rom-heroe, #marta, #pero-entonces, #puente-grupo, #estudio-arrieta1, #estudio-arrieta2, #estudio-arrieta3, #puente-quien, #recomen_breves,  #recomendaciones, #pero, #daniel-buren, #bilbao, #mesa-de-trabajo-1, #mesa-de-trabajo-2, #mesa-de-trabajo-3 { 
+margin-top:24px;
+margin-left:24px;
+}
+
+#cv2, #cv3, #cv4, #cv5, #cv6, #cv7, #cv8, #cv9, #cv10, #cv2b, #cv3b, #cv4b, #cv5b, #cv6b, #cv7b, #cv8b, #cv9b, #cv10b { 
+margin-left:21px;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-top para separarlas entre sí
+*/
+{
+padding-top:24px;
+}
+
+/* A veces algunos de las capas que están dentro de las principales
+tienen un padding-left para separarlas entre sí
+*/
+#cv1, #cv1b, #anteriormente, #alter-ego {
+margin-left:24px;
+background-color: red;	
+}
+
+/* Hoja de estilo de 'contacto.html', en tanto que no tenga su propia hoja de estilo */
+#contacto {
+	width: 420px;
+	height: 355px;
+	float:left;
+	padding-top:50px;
+}
+/* ----------------------------------------------------------------------------- */
+
+
+
+#puente-grupo {
+width:338px;
+height:506px;
+float:left;
+background-color:red;
+}
+
+
+
+#puente-quien {
+width:586px;
+height:506px;
+float:left;
+background-color:red;
+}
+
+#recomen_breves {
+width:216px;
+height:480px;
+float:left;
+}
+
+#recomen_breves1 {
+width:216px;
+height:324px;
+float:left;
+
+}
+
+#recomen_breves2 {
+width:216px;
+height:156px;
+float:left;
+
+
+}
+
+#recomendaciones {
+width:264px;
+height:480px;
+float:left;
+
+}
+
+#recomendaciones1 {
+width:264px;
+height:190px;
+float:left;
+
+}
+
+#recomendaciones2 {
+width:264px;
+height:197px;
+float:left;
+
+}
+
+#recomendaciones3 {
+width:264px;
+height:93px;
+float:left;
+
+}
+
+#foto-inicio-grupo {
+	width: 420px;
+	height: 480px;
+	float:left;
+}
+
+
+#foto-inicio {
+	width: 420px;
+	height: 355px;
+	float:left;
+}
+
+#foto-inicio-txt {
+	width: 420px;
+	height: 125px;
+	float:left;
+	
+}
+
+#folleto{
+width: 751px;
+	height: 499px;
+	float:left;
+}
+
+#folleto-grupo{
+background-color:#e7f0ee;
+margin-left:0px;
+width: 197px;
+	height: 499px;
+	float:left;
+}
+
+#folleto-txt1{
+padding-top:40px;
+margin-left:0px;
+width: 197px;
+	height: 209px;
+	float:left;
+}
+
+#folleto-txt2{
+margin-left:0px;
+width: 197px;
+	height: 250px;
+	float:left;
+}
+
+
+#redox{
+width: 300px;
+	height: 350px;
+	float:left;
+}
+
+#artevia {
+width: 300px;
+	height: 350px;
+	float:left;
+}
+
+#arco {
+width: 300px;
+	height: 350px;
+	float:left;
+	}
+
+#marta {
+width: 591px;
+	height: 817px;
+	float:left;
+	}
+	
+#pero-entonces {
+width: 333px;
+	height: 817px;
+	float:left;
+	}
+
+
+#capitan-rom-txt {
+width: 280px;
+	height: 612px;
+	float:left;
+	
+	}
+	
+#capitan-rom-grupo {
+width: 120px;
+	height: 612px;
+	float:left;
+
+	}
+	
+#capitan-rom-i-img {
+width: 120px;
+	height: 244px;
+	float:left;
+	
+	}
+	
+#capitan-rom-i-txt {
+width: 120px;
+	height: 368px;
+	float:left;
+
+	}
+
+#capitan-rom-heroe {
+width: 276px;
+	height: 612px;
+	float:left;
+
+	}
+
+#capitan-rom-img {
+width: 276px;
+	height: 412px;
+	float:left;
+
+	}
+	
+	#capitan-rom-nota {
+width: 276px;
+	height: 200px;
+	float:left;
+
+	}
+	
+#hermion-grupo {
+width: 200px;
+	height: 612px;
+	float:left;
+	}
+	
+	#superman-img {
+width: 200px;
+	height: 259px;
+	float:left;
+
+	}
+	
+	#hermion-txt {
+width: 200px;
+	height: 141px;
+	float:left;
+
+	}
+	
+	#hermion-img {
+width: 200px;
+	height: 124px;
+	float:left;
+
+	}
+	
+	
+	
+		#hermion-creditos {
+width: 200px;
+	height: 88px;
+	float:left;
+	}
+
+
+#seccion_formacion {
+width:948px;
+height:auto;
+left: 0px;
+top: 0px;
+float:left;
+padding-bottom:15px;	
+}
+
+#seccion_experiencia, #anteriormente, #alter-ego {
+width:948px;
+height:auto;
+left: 0px;
+top: 0px;
+float:left;
+padding-bottom:15px;	
+}
+
+#pero {
+width:948px;
+height:auto;
+left: 0px;
+top: 0px;
+float:left;
+padding-bottom: 0px;
+padding-top: 15px;	
+}
+
+#museo-logo {
+width: 212px;
+	height: 420px;
+	float:left;
+	}
+#museo-foto-grupo {
+width: 369px;
+	height: 420px;
+	float:left;
+	}	
+	
+#museo-foto {
+width: 369px;
+	height: 322px;
+	float:left;
+	}
+	
+#museo-foto-txt {
+width: 369px;
+	height: 98px;
+	float:left;
+	}
+	
+#formacion-dibujo-txt {
+width: 319px;
+	height: 420px;
+	float:left;
+	}
+	
+#estudio-arrieta1 {
+width: 300px;
+	height: 168px;
+	float:left;
+	background-color:yellow;
+	}
+	
+#estudio-arrieta2 {
+width: 300px;
+	height: 168px;
+	float:left;
+	background-color:red;
+	}
+	
+#estudio-arrieta3 {
+width: 300px;
+	height: 168px;
+	float:left;
+	background-color:yellow;
+	}
+	
+	#daniel-buren {
+width: 250px;
+	height: 188px;
+	float:left;
+		}
+	
+	#bilbao {
+width:674px;
+	height: 188px;
+	float:left;
+
+	}
+	
+	#mesa-de-trabajo-1 {
+width:383px;
+	height: 287px;
+	float:left;
+
+	}
+	
+		#mesa-de-trabajo-2 {
+width:277px;
+	height: 287px;
+	float:left;
+	
+	}
+	
+		#mesa-de-trabajo-3 {
+width:240px;
+	height: 287px;
+	float:left;
+
+	}
+	
+	
+	/* ....... */
+	
+	#cv{
+width: 52px;
+	height: 56px;
+	float:left;
+	background-color:red;
+	}
+	#cv1, #cv2, #cv3, #cv4, #cv5, #cv6, #cv7, #cv8, #cv9, #cv10 {
+width: 100px;
+	height: 56px;
+	float:left;
+	background-color:red;
+	}
+	
+	#cv1b, #cv2b, #cv3b, #cv4b, #cv5b, #cv6b, #cv7b, #cv8b, #cv9b, #cv10b {
+width: 100px;
+	height: 36px;
+	float:left;
+	background-color:yellow;
+	}
+
+	#cv1C, #cv2C, #cv3C, #cv4C, #cv5C, #cv6C, #cv7C, #cv8C, #cv9C, #cv10C {
+width: 100px;
+	height: 36px;
+	float:left;
+	background-color:yellow;
+	}
+	
+
