@@ -7,7 +7,7 @@ margin-top:24px;
 margin-left:24px;
 }
 
-#cv2, #cv3, #cv4, #cv5, #cv6, #cv7, #cv8, #cv9, #cv10, #cv2b, #cv3b, #cv4b, #cv5b, #cv6b, #cv7b, #cv8b, #cv9b, #cv10b, #cv2c, #cv3c, #cv4c, #cv5c, #cv6c, #cv7c, #cv8c, #cv-agrupar2, #cv-agrupar3, #cv-agrupar5, #cv-agrupar6, #cv-agrupar7, #cv-agrupar8, #cv3-2, #cv3-3, #cv3-4, #cv3-5, #cv3-6, #cv3-7, #cv3-8, #cv3-9, #cv3-10 { 
+#cv2, #cv3, #cv4, #cv5, #cv6, #cv7, #cv8, #cv9, #cv10, #cv2b, #cv3b, #cv4b, #cv5b, #cv6b, #cv7b, #cv8b, #cv9b, #cv10b, #cv2c, #cv3c, #cv4c, #cv5c, #cv6c, #cv7c, #cv8c, #cv-agrupar2, #cv-agrupar3, #cv-agrupar5, #cv-agrupar6, #cv-agrupar7, #cv-agrupar8, #cv3-2, #cv3-3, #cv3-4, #cv3-5, #cv3-6, #cv3-7, #cv3-8, #cv3-9, #cv3-10, #cv-agrupar10, #cv-agrupar11, #cv-agrupar12, #cv-agrupar13, #cv-agrupar14, #cv-agrupar15, #cv-agrupar16, #cv-agrupar17, #cv-agrupar18 { 
 margin-left:21px;
 }
 
@@ -23,7 +23,7 @@ padding-top:24px;
 /* A veces algunos de las capas que están dentro de las principales
 tienen un padding-left para separarlas entre sí
 */
-#cv1, #cv1b, #cv-agrupar1, #cv3-1, #cv1c, #anteriormente, #alter-ego {
+#cv1, #cv1b, #cv-agrupar1, #cv-agrupar9, #cv3-1, #cv1c, #anteriormente, #alter-ego {
 margin-left:24px;	
 }
 
@@ -411,13 +411,33 @@ width: 100px;
 	background-color:white;
 	}
 
-	#cv-agrupar3 {
+#cv-agrupar3 
+	{
 		width: 222px;
 		height: 36px;
 		background-color: white; /*#D6D5D4*/;
 		text-align: center;
 		line-height: 18px;
 	}
+
+#cv-agrupar9, #cv-agrupar10, #cv-agrupar11, #cv-agrupar12, #cv-agrupar13, #cv-agrupar14, #cv-agrupar15, #cv-agrupar16, #cv-agrupar17 
+{
+width: 100px;
+	height: 36px;
+	float:left;
+	background-color: white;
+	}
+
+#cv-agrupar10 {
+		width: 463px;
+		height: 36px;
+		background-color: white; /*#D6D5D4*/
+		text-align: center;
+		line-height: 18px;
+
+	}
+
+
 
 
 	#cv1c, #cv2c, #cv3c, #cv4c, #cv5c, #cv6c, #cv7c, #cv8c, #cv9c, #cv10c {
@@ -432,6 +452,20 @@ width: 100px;
 	height: 36px;
 	float:left;
 	}
+.align-central {
+	text-align: center;
+}
+
+.linea-arriba-v {
+		border-top: 1px solid #1FC435;
+
+	}
+
+.linea-arriba-r {
+	border-top: 1px solid red;
+	
+}
+
 
 	
 
