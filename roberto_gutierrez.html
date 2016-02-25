@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -21,10 +21,7 @@ google.load("jquery", "1.2.6");
 <script type="text/javascript" src="js/scroll.js"></script>
 <!-- FIN DEL SCRIPT PARA EL SCROLL -->
 
-<!-- CONVERTIR SWF A HTML -->
-<script type="text/javascript" src="https://www.gstatic.com/swiffy/v7.4/runtime.js"></script>
-<script type="text/javascript" src="js/andarin.js"></script>
-<!-- fin conversión -->
+
 <style type="text/css">
 #contenedor_principal {
 	height:11800px;
@@ -460,15 +457,21 @@ so.write("contenidoflash_carretilla");
 <!-- euskalduna-grupo -->
  <!-- ***************************** ILUSTRACIÓN TÉCNICA ******************************** -->
 <!-- ***************************** ILUSTRACIÓN TÉCNICA ******************************** -->
-<div id="swiffycontainer">
-    </div>
-    <script>
-      
-      var stage = new swiffy.Stage(document.getElementById('swiffycontainer'),
-          swiffyobject, {});
-      
-      stage.start();
-    </script>
+<!-- SWF -->
+<div id="contenidoflash_andarin">
+<object type="application/x-shockwave-flash"
+width="550" height="600" data="flash/andarin7.swf">
+<param name="movie" value="flash/andarin7.swf" />
+<param name="menu" value="false" />
+<param name="quality" value="high" />
+</object>
+</div>
+<div id="contenidoflash_andarin">
+<img src="images/quien/no-plugin-flash-andarin.png">
+</div>
+
+
+    <!-- fin SWF -->
 
 <div id="andarin-siguiente">
 <div id="sim-romi-pegatina"><img src="images/visita/ilustracion/proyector.jpg" width="374" height="291"  alt=""  /></div>
