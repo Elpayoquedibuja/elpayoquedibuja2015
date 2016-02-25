@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Quién soy</title>
 <link href="css/web/screen.css" rel="stylesheet" type="text/css" />
 <link href="css/screen-quien.css" rel="stylesheet" type="text/css" />
@@ -11,6 +12,10 @@
 <link href="css/web/screen-colores.css" rel="stylesheet" type="text/css" />
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="swfobject.js"></script>
+<!-- CONVERTIR SWF A HTML -->
+<script type="text/javascript" src="https://www.gstatic.com/swiffy/v7.4/runtime.js"></script>
+<script type="text/javascript" src="js/andarin.js"></script>
+<!-- fin conversión -->
 <style type="text/css">
 #contenedor_principal {
 	height:11800px;
@@ -420,22 +425,25 @@ so.write("contenidoflash_carretilla");
 <!-- euskalduna-grupo -->
  <!-- ***************************** ILUSTRACIÓN TÉCNICA ******************************** -->
 <!-- ***************************** ILUSTRACIÓN TÉCNICA ******************************** -->
-<div id="contenidoflash_andarin">Si no ve la animación. Visite el sitio web oficial de Adobe y descargue gratis el plugin de flash</div>
-<script type="text/javascript">
-var so = new SWFObject("flash/andarin7.swf", "mymovie", "550", "600", "7", "#EDEBE6");
-so.write("contenidoflash_andarin");
-</script>
+<div id="swiffycontainer">
+    </div>
+    <script>
+      
+      var stage = new swiffy.Stage(document.getElementById('swiffycontainer'),
+          swiffyobject, {});
+      
+      stage.start();
+    </script>
 
 <div id="andarin-siguiente">
 <div id="sim-romi-pegatina"><img src="images/visita/ilustracion/proyector.jpg" width="374" height="291"  alt=""  /></div>
 <div id="ilustracion-tecnica">
     
-<p class="titular"><a href="visita-rapida.html#titulo_web">[arriba]</a> Ilustración técnica: </p>
+<p class="titular"><a href="visita-rapida.html#titulo_web"><img src="images/flecha_arriba.png" width="18" height="22" alt=""  /></a> Ilustración técnica: </p>
 <p class="titular">7.1- Proyector</p><p class="noticia">Freehand.</p>
 <p class="titular"><a href="visita-rapida.html#nafsa-1"><img src="images/flecha-subir-1-nivel.png" width="18" height="22" alt=""  /></a><a href="visita-rapida.html#apunte-carboncillo-grupo"><img src="images/flecha-bajar.png" width="18" height="22" alt=""  /></a> 7.2- Andarín</p>
-<p class="noticia">Esta ilustración está dibujada en Flash. La mujer está dibujada en una tableta gráfica. <br />
-  <br />
-  Al estar la ilustración dibujada en flash, se puede animar y se puede utilizar para el catálogo y para una presentación multimedia, bien en web o en un CD-Rom.</p>
+<p class="noticia">Ilustración realizada tanto para el catálogo en papel del producto como para su versión online.</p>
+<p class="noticia2">La versión original está realizada en Flash. La versión que ves está convertida a HTML utilizando Swiffy (de Google)</p>
 </div>
 </div><!-- Cerrar la capa "Andarín" -->
    <!-- ***************************** ILUSTRACIÓN ARTÍSTICA ******************************** -->

@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /* Márgenes de las capas "principales" */
-#foto-inicio-grupo, #redox, #artevia, #folleto, #folleto-grupo, #arco, #seccion_formacion, #seccion_experiencia, #museo-logo, #recomendaciones_breves, #museo-foto-grupo, #formacion-dibujo-txt, #capitan-rom-txt, #capitan-rom-grupo, #hermion-grupo, #capitan-rom-heroe, #marta, #pero-entonces, #puente-grupo, #estudio-arrieta1, #estudio-arrieta2, #estudio-arrieta3, #puente-quien, #recomen_breves,  #recomendaciones, #pero, #daniel-buren, #bilbao, #mesa-de-trabajo-1, #mesa-de-trabajo-2, #mesa-de-trabajo-3 { 
+#foto-inicio-grupo, #redox, #artevia, #folleto, #folleto-grupo, #arco, #seccion_formacion, #seccion_experiencia, #museo-logo, #recomendaciones_breves, #museo-foto-grupo, #formacion-dibujo-txt, #capitan-rom-txt, #capitan-rom-grupo, #hermion-grupo, #capitan-rom-heroe, #marta, #pero-entonces, #puente-grupo, #estudio-arrieta1, #estudio-arrieta2, #estudio-arrieta3, #puente-quien, #recomen_breves,  #recomendaciones, #pero, #daniel-buren, #bilbao, #mesa-de-trabajo-1, #mesa-de-trabajo-2, #mesa-de-trabajo-3, #swiffycontainer { 
 margin-top:24px;
 margin-left:24px;
 }
@@ -379,6 +379,12 @@ width:240px;
 	height: 287px;
 	float:left;
 
+	}
+
+	#swiffycontainer {
+		width: 550px; 
+		height: 600px;
+		float: left;
 	}
 	
 	
