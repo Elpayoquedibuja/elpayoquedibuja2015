@@ -1,7 +1,7 @@
-@charset "UTF-8";
+@charset "UTF-8";	
 
 /*Solo el primer bloque de cada fila - AÑADE EL MARGEN DE 24PX DE LA IZQUIERDA */
-#visita-titulo, #nafsa-1, #nafsa-2, #nafsa-2b, #nafsa-2a, #nafsa-2c, #nafsa-3a, #nafsa-3b, #contenidoflash_andarin, #apunte-carboncillo-grupo, #euskalduna, #grupo-breves, #euskalduna-txt, #pegatina-grupo {
+#visita-titulo, #nafsa-1, #nafsa-2, #nafsa-2b, #nafsa-2a, #nafsa-2c, #nafsa-3a, #nafsa-3b, #contenidoflash_andarin, #apunte-carboncillo-grupo, #euskalduna, #grupo-breves, #euskalduna-txt, #pegatina-grupo, #contenidoflash_hada_de_la_suerte, #contenidoflash_nafsa, #contenidoflash_nafsa_titulo, #contenidoflash_nafsa_catalogo, #contenidoflash_nafsa_catalogo_titulo {
 margin-left:24px;
 }
 
@@ -19,9 +19,57 @@ margin-left:24px;
 }
 
 /* TODOS LOS BLOQUES - AÑADE UN MARGEN DE 24px ARRIBA */
-#visita-titulo, #visita-1, #visita-2, #visita-2b, #nafsa-1, #nafsa-2, #nafsa-3, #visita-2a, #contenidoflash_andarin, #andarin-siguiente, #apunte-carboncillo-grupo, #apunte-lapiz-azul-grupo, #acuarela-grupo, #monte-prohibido-grupo, #euskalduna-grupo, #grupo-breves, #pegatina-grupo, #selzi-grupo, #pegatina-grupo {
+#visita-titulo, #visita-1, #visita-2, #visita-2b, #nafsa-1, #nafsa-2, #nafsa-3, #visita-2a, #contenidoflash_andarin, #andarin-siguiente, #apunte-carboncillo-grupo, #apunte-lapiz-azul-grupo, #acuarela-grupo, #monte-prohibido-grupo, #euskalduna-grupo, #grupo-breves, #pegatina-grupo, #selzi-grupo, #pegatina-grupo, #contenidoflash_hada_de_la_suerte, #contenidoflash_nafsa, #contenidoflash_nafsa_titulo, #contenidoflash_nafsa_catalogo, #contenidoflash_nafsa_catalogo_titulo {
 margin-top:24px;
 }
+
+#andarin-siguiente {
+width:374px;
+height:600px;
+float:left;	
+}
+
+
+#contenidoflash_andarin {
+width:550px;
+height:600px;
+float:left;	
+}
+
+#contenidoflash_hada_de_la_suerte {
+width:948px;
+height:536px;
+float:left;	
+}
+
+#contenidoflash_nafsa {
+width:948px;
+height:536px;
+float:left;	
+border: 4px, solid, gray;
+}
+
+#contenidoflash_nafsa_catalogo {
+width:948px;
+height:536px;
+float:left;	
+border: 1px, solid, black}
+
+#contenidoflash_nafsa_catalogo_titulo {
+width:948px;
+height:50px;
+float:left;	
+}
+
+
+#contenidoflash_nafsa_titulo {
+width:948px;
+height:50px;
+float:left;	
+}
+
+
+
 
 #migas_de_pan {
 	padding-bottom:60px;	
@@ -152,17 +200,7 @@ height:338px;
 float:left;
 }
 
-#contenidoflash_andarin {
-width:550px;
-height:600px;
-float:left;	
-}
 
-#andarin-siguiente {
-width:374px;
-height:600px;
-float:left;	
-}
 
 #ilustracion-tecnica {
 width:374px;
