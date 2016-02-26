@@ -46,14 +46,17 @@ float:left;
 width:948px;
 height:536px;
 float:left;	
-border: 4px, solid, gray;
+border: 2px solid gray;
 }
 
 #contenidoflash_nafsa_catalogo {
 width:948px;
 height:536px;
 float:left;	
-border: 1px, solid, black}
+border: 2px solid gray;
+margin-bottom: 80px;
+
+}
 
 #contenidoflash_nafsa_catalogo_titulo {
 width:948px;
@@ -66,8 +69,19 @@ float:left;
 width:948px;
 height:50px;
 float:left;	
+border-bottom: 1px dotted gray;
 }
 
+#contenidoflash_semaforo {
+	width:392px;
+height:398px;
+float:left;	
+}
+#contenidoflash_nafsa_titulo, #contenidoflash_nafsa_catalogo_titulo { 
+
+border-bottom: 1px dotted gray;
+
+}
 
 
 
