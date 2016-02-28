@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>Tutorial &quot;cargando del Sem&aacute;foro&quot;. Flash. ActionScript - E-learning. Roberto Guti&eacute;rrez - Bilbao - Bizkaia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../miestilo1.css">
+
+<script language="JavaScript">
+<!--
+function bookmark()
+   {
+     window.external.AddFavorite('http://www.blocdeapuntes.net/paginas/cargando_semaforo_como_se_hizo2.htm','Cargando Semáforo, sitio web Bloc de apuntes');
+   }
+//-->
+</script>
+
+
+<script language="JavaScript">
+<!--
+function emailBidali(index) { 
+	
+    	if (index == 1)parent.location=('mailto:?subject=tutorial flash&body=¡Mira que página he encontrado!: '+ 'http://www.blocdeapuntes.net/paginas/cargando_semaforo_como_se_hizo2.htm'); 
+	
+}
+//-->
+</script>
+
+<script language="JavaScript">
+
+function imprimir() 
+{
+bV = parseInt(navigator.appVersion)
+if (bV >= 4) window.print()
+} 
+// Fin función esperarImprimir
+
+</script>
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+//-->
+</script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+
+<meta name="description" content="Ejemplo de cómo se hace un cargando en Flash. Explica un uso de la función Random en ActionScript y de SetProperty para variar la visibilidad de un clip de película.">
+<style type="text/css">
+<!--
+body {
+	background-color: #99ccff;
+}
+-->
+</style></head>
+
+<body>
+<div id="Layer1" style="position:absolute; left:70px; top:24px; width:310px; height:75px; z-index:1"><img src="../images/espiralblocgrande.gif" width="610" height="169"></div>
+<div id="Layer2" style="position:absolute; left:98px; top:190px; width:553px; height:2657px; z-index:2; background-color: #FFFFFF; layer-background-color: #FFFFFF; border: 1px none #000000"></div>
+
+<div id="Layer3" style="position:absolute; left:105px; top:205px; width:433px; height:40px; z-index:6"><img src="../images/tutorial_semaforo/titulo_tutorial.jpg" width="440" height="79"></div>
+<div id="Layer6" style="position:absolute; left:144px; top:292px; width:473px; height:25px; z-index:8" class="capitulo1_subTitulo">C&oacute;mo se hizo:<br>
+    <hr>
+</div>
+<div id="Layer7" style="position:absolute; left:113px; top:336px; width:114px; height:65px; z-index:9"><img src="../images/tutorial_semaforo/pantalla_mac.jpg"></div>
+<div id="Layer8" style="position:absolute; left:215px; top:377px; width:399px; height:65px; z-index:10; font-weight: bold;" class="Apartados_carta">- Parte 2: Programaci&oacute;n </div>
+<div id="Layer4" style="position:absolute; left:160px; top:559px; width:419px; height:275px; z-index:11" class="cartelesSoloBordeNegro"><img src="../images/tutorial_semaforo/25k.jpg" width="419" height="275"></div>
+<div id="Layer9" style="position:absolute; left:280px; top:1014px; width:159px; height:78px; z-index:12"><img src="../images/tutorial_semaforo/interpolaciones_de_movimien.jpg" width="179" height="88"></div>
+<div id="Layer10" style="position:absolute; left:171px; top:1381px; width:411px; height:131px; z-index:13" class="CARTELES">
+  <p><strong>La funci&oacute;n random() </strong></p>
+  <p>La funci&oacute;n random() devuelve un n&uacute;mero aleatorio entre 0 y el n&uacute;mero que escribamos entre par&eacute;ntesis menos uno.</p>
+  <p>Es decir, random(4) devolver&aacute; uno de estos n&uacute;meros al azar: 0, 1, 2 y 3.</p>
+</div>
+<div id="Layer11" style="position:absolute; left:122px; top:1554px; width:500px; height:328px; z-index:20" class="cartelesSoloBordeNegro"><img src="../images/tutorial_semaforo/cambiar_visibiladad.jpg" width="500" height="328"></div>
+
+<div id="Layer6" style="position:absolute; left:144px; top:452px; width:473px; height:36px; z-index:8" class="arial10Negro">El script del cargando es el habitual que se puede encontrar en cualquier portal de programaci&oacute;n. <br>
+  En el fotograma 2 se comprueba mediante un &quot;if (_root.getBytesLoaded()&gt;=_root.getBytesTotal())&quot; si la pel&iacute;cula ha sido cargada y si no lo ha sido vuelve al fotograma 1.</div>
+
+<div id="Layer6" style="position:absolute; left:144px; top:862px; width:473px; height:36px; z-index:8" class="arial10Negro">En esta ocasi&oacute;n la comprobaci&oacute;n la hace en el fotograma 6 y no en el 2. Desde el fotograma 1 hasta el 6 tiene que haber espacio en la l&iacute;nea de tiempo para que el texto en el que, por ejemplo, est&aacute; escrito &quot;25k&quot; vaya desde la derecha hasta la izquierda, pasando as&iacute; por delante del sem&aacute;foro en rojo, el tiempo que dure la carga de la pel&iacute;cula.
+  <p>Para que sea menos mon&oacute;tono prepar&eacute; 4 de estas simples interpolaciones de movimiento distintas:</p>
+</div>
+
+<div id="Layer9" style="position:absolute; left:280px; top:1194px; width:159px; height:78px; z-index:12"><img src="../images/tutorial_semaforo/movie.jpg" width="179" height="88"></div>
+
+<div id="Layer6" style="position:absolute; left:144px; top:1895px; width:473px; height:36px; z-index:8" class="arial10Negro">
+  <p>Lo que he hecho es situar en el fotograma 1 los cuatro clips de pel&iacute;cula (en capas distintas, &uacute;nicamente por mantener la pel&iacute;cula m&aacute;s o menos ordenada) y desde la t&iacute;pica capa a la que le damos el nombre de &quot;acciones&quot; (otra vez, lo de mantener un cierto orden en la pel&iacute;cula) los he vuelto por c&oacute;digo invisibles:</p>
+  <blockquote>
+    <blockquote>
+      <p>_root.movie000._visible=false;<br>
+        _root.movie001._visible=false;<br>
+        _root.movie002._visible=false;<br>
+        _root.movie003._visible=false;</p>
+    </blockquote>
+  </blockquote>
+  <p> Ahora vuelvo visible &uacute;nicamente uno de ellos al azar:</p>
+  <blockquote>
+    <blockquote>
+      <p>al_azar=&quot;movie00&quot; add (1+random(4));<br>
+        setProperty(al_azar,_visible,true); </p>
+    </blockquote>
+  </blockquote>
+  <p><br>
+  </p>
+</div>
+
+<div id="Layer10" style="position:absolute; left:171px; top:2157px; width:411px; height:160; z-index:13; visibility: visible;" class="CARTELES">
+  <p><strong>Es decir, c&oacute;digo completo en el fotograma 1: </strong></p>
+  <blockquote>
+    <p>_root.movie001._visible=false;<br>
+      _root.movie002._visible=false;<br>
+      _root.movie003._visible=false;<br>
+      _root.movie004._visible=false;<br>
+      <br>
+      al_azar=&quot;movie00&quot; add (1+random(4));
+      <br>
+    setProperty(al_azar,_visible,true);</p>
+  </blockquote>
+</div>
+<p>&nbsp;</p>
+<div id="Layer6" style="position:absolute; left:144px; top:1122px; width:473px; height:36px; z-index:8" class="arial10Negro">
+  <p>Cada interpolaci&oacute;n de movimiento las he convertido en un clip de pel&iacute;cula. En el panel propiedades, les he asignado los nombres &quot;movie000&quot;, &quot;movie001&quot;, &quot;movie002&quot;, y &quot;movie003&quot;, respectivamente.<br>
+    Es decir:</p>
+  <p>&nbsp; </p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>Y para que sea menos mon&oacute;tono a&uacute;n variar&aacute; al azar el orden en el que van pasando uno a uno por delante del sem&aacute;foro. Si va a ser al azar, quiere decir que he utilizado la funci&oacute;n random(). </p>
+  <p><br>
+  </p>
+</div>
+
+<div id="Layer6" style="position:absolute; left:144px; top:2365px; width:473px; height:36px; z-index:8" class="arial10Negro">
+  <p>En el fotograma 6 se le hace la pregunta de si ha cargado o no la pel&iacute;cula. Si no se ha cargado vuelve al fotograma 1. De esta forma &quot;al_azar&quot; contendr&aacute; unas veces el nombre del clip &quot;movie000&quot;, otras &quot;movie001&quot;... as&iacute; el comando setProperty volver&aacute; visible cada vez a uno, no necesariamente siempre el mismo, ni siempre en el mismo orden.</p>
+  <p>Los clip de pel&iacute;cula en los que se lee &quot;25k&quot;, &quot;40k&quot;, &quot;60k&quot;... van pasando uno tras otro delante del sem&aacute;foro durante el tiempo que este est&aacute; en rojo, es decir mientras la pel&iacute;cula se est&aacute; cargando.</p>
+  <p>Si al pasar por el fotograma 6 la pel&iacute;cula se ha cargado, con un &quot;gotoAndPlay&quot; va a un fotograma en el que el sem&aacute;foro est&aacute; en verde (ese en el que he utilizado el bot&oacute;n &quot;Intercambiar...&quot; del que hablaba en la p&aacute;gina anterior), y la chica y el perro cruzan la calle y el &quot;cargando&quot; desaparece. Eso es todo. </p>
+  <p><br>
+  </p>
+  <p><a href="cargando_semaforo_como_se_hizo.html"><img src="../images/prevlabel.gif"></a></p>
+  <p class="Apartados_carta">FIN</p>
+</div>
+
+</body>
+</html>

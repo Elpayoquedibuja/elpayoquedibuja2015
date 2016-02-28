@@ -1,0 +1,727 @@
+/* CSS Document */
+
+/* Incluye abajo:
+- Los estilos del Menú principal de la izquierda
+- Y los estilos de la tabla a dos columnas del centro
+*/
+
+/* Incluye abajo:
+- Los estilos de las páginas 'portafolio' (por ejemplo la página de Kale dor Kayiko)
+*/
+
+/* Existe un div#nav que controla el contenido de la tercera columna*/
+
+
+a {
+color:#4100F7;
+text-decoration:none;
+}
+
+a:visited {
+color:#663300;
+}
+
+a:hover {
+text-decoration:underline;
+color:#FF0000;
+}
+
+/* Estos dos estilos se mantienen de la versión 1 de Bloc de apuntes */
+ 
+.arial10Negro {  
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 10pt;
+font-weight:normal;
+color: #333333;
+}
+
+.Apartados_carta {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #0066FF;
+}
+
+.CARTELES {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: normal; color: #333333; background-color: #FFFF99; padding-top: 4px; padding-right: 8px; padding-bottom: 10px; padding-left: 7px; border: 1px #000000 solid; border-color: #000000 solid}
+
+/* ------- */ 
+
+.aviso {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:80%;
+font-weight:normal;
+color:#FF3300;
+
+}
+
+
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin:0;
+	margin-right:350px;
+	padding-right:200Px;
+	padding:0;
+	font-size: 70%;
+	font-weight: bold;
+	background: #ffffff;
+	}
+	
+	
+	
+.estas_ahora_en {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#0033CC;
+	text-align:left;
+}
+
+.carteles_index {  
+font-family:Verdana, Arial, Helvetica, sans-serif;
+	padding-top:10px;
+	margin-top:10px;
+	padding-left:10px;
+
+font-size: 8pt;
+font-weight:normal;
+color: #333333;
+}
+
+.cajas {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	color:#415658;
+	text-align:left;
+}
+
+.blog1, .blog2 {
+width:180px;
+padding-left: 0px;
+padding-top: 10px;
+margin-left:0px;
+margin-top:15px;
+font-size:80%;
+}
+
+.blog1 {
+
+margin-top:5%;
+
+}
+
+.blog2 {
+
+border-top:1px solid black;
+margin-bottom:15%;
+
+}
+
+.con_marcador {
+list-style-type:none;
+line-height:20px;
+padding:28px 16px 30px 28px;
+margin:10px 0px 10px 0px;
+border:0px solid black;
+border-bottom:0px solid #EDEBE6;
+}
+
+.con_marcador2 {
+padding-left:2px;
+margin-left:12px;
+margin-bottom:12px;
+margin-top:12px;
+list-style-type:none;
+}
+
+/* DIV . . . . . . . . . . . . . .  */
+
+div#dentro_de_contenido  {
+padding:5px 5px 45px 15px; 
+border:1px solid black;
+}
+
+
+
+
+
+div#nav {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:1em;
+font-weight:bold;
+margin-top:0px;
+padding-top:0px;
+
+line-height:28px;
+
+}
+
+div#nav li{
+padding:1px 0px 1px 0px;
+}
+
+div#content {
+background-color:#EDEBE6;
+}
+
+div#tablas {
+border:1px solid black;
+padding:2px;
+}
+/* Fin DIV . . . . . . . . . . . . . .  */
+
+.enlaces li {
+
+maging:20px;
+padding:4px 10px 4px 0;
+}
+
+.enlaces a {
+text-decoration:none;
+color:#638491;
+}
+
+.enlaces a:hover {
+text-decoration:underline;
+color:#0066CC;
+}
+
+/* - - - */
+
+.enlaces2 li {
+
+maging:20px;
+padding:4px 10px 4px 0;
+}
+
+.enlaces2 a {
+text-decoration:none;
+color:#333333;
+
+}
+
+.enlaces2 a:hover {
+text-decoration:underline;
+color:#0033FF;
+}
+
+.fecha {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:80%;
+padding-left:10px;
+margin-bottom:400px;
+}
+
+.fin {
+padding-left:20px;
+padding-bottom:4px;
+margin-bottom:4px;
+border-top:1px solid #384557;
+border-bottom:4px solid #EBEBEC;
+}
+
+
+.grande {
+	font-family:"Arial Black", "FrnkGothITC Hv BT", Arial;
+	text-align:left;
+	font-size:40px;
+	color:#637382;
+	margin:5px;
+	margin-left:0px;
+	list-style-type:none;
+	padding:3px 3px 3px 9px;
+}
+
+h1 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:1em;
+	color:#003366;
+	margin:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-top:0px;
+	padding-left:6px;
+	padding-bottom:0px;
+	padding-top:0px;
+	margin-right:0px;
+	border-top:1px solid gray;
+	display:inherit;
+	background-color:#eeeeee;
+	
+	
+}
+
+h2 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:1em;
+	color:#003366;
+	margin:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-top:0px;
+	padding-left:6px;
+	padding-bottom:0px;
+	padding-top:0px;
+	margin-right:0px;
+	border-top:1px solid gray;
+	display:inherit;
+	background-color:#eeeeee;
+	
+	
+	
+}
+
+h3 {
+	font-family:"Times New Roman", Times, serif;
+	font-size:4em;
+	color:#FFFFFF;
+	background-color:#4472CD;
+	margin:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-top:0px;
+	padding-left:6px;
+	padding-bottom:0px;
+	padding-top:0px;
+	margin-right:0;
+	border-top:1px solid gray;
+	
+	
+	
+}
+
+h4 {
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-size:14pt;
+	font-weight:bold;
+	margin:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-top:0px;
+	display:block;
+	color:#006699;
+	padding-right:0px;
+	padding-left:0px;
+	padding-bottom:0px;
+	padding-top:20px;
+}
+
+img {
+    border: none;
+} 
+
+.intro {
+padding-left:28px;
+}
+
+.intro1 {
+padding-left:24px;
+padding-top:10px;
+}
+
+.introfin {
+padding-left:28px;
+padding-bottom:10px;
+}
+
+.intro1yfin {
+padding-left:28px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+.izquierda {
+
+padding-left:0px;
+margin-left:0px;
+}
+
+.medio {
+	font-family:"Arial Black", "FrnkGothITC Hv BT", Arial;
+	text-align:left;
+	font-size:180%;
+	color:#637382;
+	margin:20px 5px 5px 0px;
+	list-style-type:none;
+	padding:3px 3px 3px 9px;
+}
+
+.menug {
+font-family:"Times New Roman", Times, serif;
+font-size:8.6em;
+font-weight:normal;
+background:#EDEBE6;
+left:0;
+padding:0 0 0 0px;
+border-style:none;
+margin: 20px 0 0 -2px;
+}
+
+.menum {
+font-family:"Times New Roman", Times, serif;
+font-size:3.6em;
+font-weight:bold;
+color:#66CC33;
+background:#EDEBE6;
+left:0;
+padding:0 0 0 0px;
+border-style:none;
+margin: 20px 0 0 -2px;
+}
+
+
+.menup {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:0.85em;
+font-weight:normal;
+left:0;
+padding:0 0 0 0px;
+border-style:none;
+margin: 20px 0 0 1px;
+}
+
+
+
+.principales {
+margin-left:80px;
+}
+
+.portafolio {
+
+
+
+}
+
+.publicidad {
+font-size:8pt;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#0000FF;
+font-weight:bold;
+margin-bottom:0px;
+padding-bottom:0px;
+line-height:8px;
+
+}
+
+.quien {
+font-weight:bold;
+border-bottom:0.05em;
+border-bottom-color:#999900;
+border-bottom-style:solid;
+font-size:1.13em;
+color:#333333;
+}
+
+/* 'secciones' asigna el padding izquierdo a los iconos con las validaciones del menú vertical.
+Existe otro "class="secciones" asociado a los elementos 'li' del menú vertical:
+ul.vert-one li.secciones
+*/
+
+.seccion {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:bold;
+font-size:1.1em;
+}
+.secciones {
+padding-left:20px;
+padding-bottom:4px;
+margin-bottom:4px;
+}
+
+.separador {
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-size:11px;
+	color:#0033CC;
+}
+
+.sitio_exacto {
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-size:11px;
+	font-weight:bold;
+	color:#FF0000;
+}
+
+.sigue_aqui {
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-size:7pt;
+	vertical-align:super;
+	color:#FF0000;
+}
+
+.sin_marcador {
+list-style-type:none;
+font-size:0.4em;
+}
+
+.sin_marcador_sangria {
+list-style-type:none;
+font-size:0.4em;
+text-indent:6px;
+}
+
+.sin_marcador_y_padding {
+list-style-type:none;
+margin-bottom:200px;
+font-size:0.4em;
+text-indent:6px;
+}
+
+.sin_padding2 {
+padding:0px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+}
+
+.texto_quien_es {  
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 10pt;
+font-weight:normal;
+color: #333333;
+line-height:2em;
+width:400px;
+
+}
+
+ul {
+list-style-type:none;
+	margin: 0;
+	padding: 0;
+	text-align:left;
+	
+	}
+	
+/* Modifica el espacio entre líneas tanto en contacto.html como en buscador.html */
+ul.formulario li{
+padding:6px 0 6px 0;
+}
+
+/*- Nuevo Menú vertical--------------------------- */
+	
+ul.vert-one{
+margin:0 0 0px 0px;
+padding:0 0 0px 0;
+margin-top:15px;
+padding-top:30px;
+list-style-type:none;
+display:block;
+font:bold 90% Verdana, Arial, Helvetica, sans-serif;
+line-height:165%;
+width:194px;
+
+}
+
+ul.vert-one li{
+margin:0 0 0 0px;
+padding:0;
+border-top:1px solid #384557;
+border-bottom:1px solid #EBEBEC;
+background:#C0CBD9 url("images/vert-one_arrow_sin.gif") no-repeat 0 20px;
+color:#637382;
+}
+ul.vert-one li a{
+/* Estado normal */
+display:block;
+text-decoration:none;
+color:#637382;
+background:#C0CBD9 url("images/vert-one_arrow_normal.gif") no-repeat 0 5px;
+padding:0 0 0 20px;
+width:174px;
+}
+ul.vert-one li a:hover{
+/* Estado over */
+background:#ABB9CC url("images/vert-one_arrow.gif") no-repeat 0 5px;
+/* 900 color morado */
+}
+ul.vert-one li a.current,ul.vert-one li a.current:hover{
+background:#933 url("images/vert-one_arrow.gif") no-repeat 0 9px;
+}
+ul.vert-one li.secciones{
+padding-left:20px;
+}
+
+/* Fin Nuevo Menú vertical ---------------------- */
+	
+
+/* CSS en dos columnas de la capa "central" */
+	
+UL.dos_columnas
+{ 
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:90%;
+PADDING-RIGHT: 0px; 
+PADDING-LEFT: 0px; 
+FLOAT: left; 
+PADDING-BOTTOM: 0px; 
+/* MARGIN: 15px 0px; Lo modifico ahora miércoles */
+margin:15px 0px 15px -4px;
+WIDTH: 460px; 
+PADDING-TOP: 0px; 
+LIST-STYLE-TYPE: none 
+} 
+
+UL.dos_columnas LI 
+{ 
+PADDING-RIGHT: 10px; 
+DISPLAY: inline; 
+PADDING-LEFT: 0px; 
+FLOAT: left; 
+PADDING-BOTTOM: 2px; 
+WIDTH: 45%; 
+PADDING-TOP: 2px 
+} 
+
+UL.dos_columnas LI a:link {
+color:#4362D6;
+}
+
+#tabla1, #tabla2, #tabla3, #tabla4, #tabla5, #tabla6, #tabla7, #tabla8, #tabla9, #tablab{ 
+border: 1px solid #1E679A; 
+width: 200px;
+background-color: #F8F8DD; /*color crema */
+height:210px;
+margin-left:4px;
+margin-right:8px;
+} 
+#cabtab1, #cabtab2, #cabtab3, #cabtab4, #cabtab5, #cabtab6, #cabtab7, #cabtab8, #cabtab9, #cabtabb{ 
+background-color: #1E679A; 
+font-weight: bold; 
+color: #ffffff; 
+padding: 2px 2px 2px 2px; 
+} 
+#cuerpotab1, #cuerpotab2, #cuerpotab3, #cuerpotab4, #cuerpotab5, #cuerpotab6, #cuerpotab7, #cuerpotab8, #cuerpotab9, #cuerpotabb{ 
+padding: 4px 4px 4px 4px; 
+background-color: #F8F8DD; 
+}
+
+/* los dos primeros carteles */
+
+#tablaUno, #tablaDos, #tablaTres, #tablaCuatro { 
+border: 1px solid #333333; 
+width: 200px;
+background-color:#EFEFEF;
+height:210px;
+margin-left:26px;
+margin-right:8px;
+padding-bottom:50px;
+margin-bottom:30px;
+} 
+#cabtabUno, #cabtabDos, #cabtabTres, #cabtabCuatro{ 
+background-color:#333333; /*#1E679A*/ 
+font-weight: bold; 
+color: #ffffff; 
+padding: 2px 2px 2px 2px; 
+} 
+#cuerpotabUno, #cuerpotabDos, #cuerpotabTres, #cuerpotabCuatro{ 
+
+padding: 8px 8px 8px 8px; 
+
+text-align:center;
+}
+
+/* Fin de los dos primeros carteles*/
+
+.centrar {
+margin-top:0px;
+padding-top:20px;
+margin-left: 26px;
+background-color:#ebedef;
+
+
+}
+
+
+
+	
+/* CSS en dos columnas de la capa "central" - FIN */
+
+/* Hojas portafolio; por ejemplo kale_dor_kayiko.html */
+
+
+
+
+
+.titulos_portafolios {
+	font-family:"Arial Black", "FrnkGothITC Hv BT", Arial;
+	text-align:left;
+	font-size:30px;
+	color:#637382;
+	margin:5px;
+	margin-left:0px;
+	list-style-type:none;
+	padding:0px 3px 0px 0px;
+}
+
+div#caja_principal { 
+border:1px solid red;
+position:absolute; 
+top:50%; 
+left:50%; 
+width:500px; 
+height:300px; 
+margin-left:-250px; 
+margin-top:-150px; 
+}
+
+ul.hoja-portafolio {
+padding-top:20px;
+padding-left:10px;
+}
+
+ul.hoja-portafolio li {
+padding-top:10px;
+padding-bottom:10px;
+}
+ul li.sin_padding {
+padding-top:0px;
+padding-bottom:60px;
+font-weight:normal;
+
+}
+
+ul li.subtitulos_portafolios {
+padding-top:0px;
+margin-top:0px;
+color:#637382;
+font-size:115%;
+
+
+}
+
+ul.menu {
+padding-bottom:0px;
+padding-top:0px;
+color:#0066FF;
+}
+
+ul.menu li {
+display:inline;
+padding:0px 6px 0px 6px;
+}
+
+li.rojo {
+color:red;
+font-size:80%;
+
+}
+
+#donde_estas a  {
+text-decoration:underline;
+color:#0033FF;
+}
+
+#donde_estas a:visited  {
+text-decoration:underline;
+color:#0033FF;
+}
+
+#donde_estas a:hover {
+text-decoration:underline;
+color:#FF6633;
+}
+
+
+
+
+
+
