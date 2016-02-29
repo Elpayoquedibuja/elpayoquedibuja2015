@@ -1,11 +1,11 @@
 @charset "UTF-8";
 /* Márgenes de las capas "principales" */
-#abril8-taller-dibujo1, #abril8-taller-dibujo2, #libro-colorear-txt, #chapas-txt, #chapas2, #chapas3, #postal-free-txt, #postal-free-img, #hijos-emigrados, #chica-gitana-tradicional, #libro-grupo, #abril-8-foto1, #abril-8-foto2, #abril-8-foto3, #salvapantallas-el, #salvapantallas-ella, #salvapantallas-txt, #calendario1, #calendario2, #calendario3, #calendario1b, #calendario2b, #calendario3b, #calendario-indice, #calendario-intro, #enero-febrero, #marzo, #mes1, #mes2, #mes3, #mes4, #mes5, #mes6, #abril, #mayo-junio, #julio-agosto, #septiembre, #octubre, #noviembre, #diciembre, #grupo-esperando, #pilar, #txukela-grupo, #txukela-txt, #marcapaginas-grupo, #marcapaginas-tipo1, #marcapaginas-tipo2, #marcapaginas-aniversario-txt, #marcapaginas-aniversario-img1, #marcapaginas-aniversario-img2, #fotoprix-grupo, #fotoprix-1, #fotoprix-2, #marcapaginas-india-txt, #osane_y_sobrina, #osane_sobrina, #shrek, #columna1, #columna2, #columna3, #postal-free-local, #postal-free-local2, #postal-free-local-txt, #marcapaginas1, #marcapaginas2, #marcapaginas3, #marcapaginas-titulo, #kerman-bloque1, #kerman-bloque2, #miniaturas-marcadores1, #miniaturas-marcadores2, #miniaturas-marcadores3, #miniaturas-marcadores4, #miniaturas-marcadores5, #chapas-bn-grupo, #chapas-color-grupo, #cursos-de-palmas, #marca-lineas, #chapas, #abanicos, #euskera, #imagina, #abanicos-grupo-1, #abanicos-grupo-2 { 
+#abril8-taller-dibujo1, #abril8-taller-dibujo2, #libro-colorear-txt, #chapas-txt, #chapas2, #chapas3, #postal-free-txt, #postal-free-img, #hijos-emigrados, #chica-gitana-tradicional, #libro-grupo, #abril-8-foto1, #abril-8-foto2, #abril-8-foto3, #salvapantallas-el, #salvapantallas-ella, #salvapantallas-txt, #calendario1, #calendario2, #calendario3, #calendario1b, #calendario2b, #calendario3b, #calendario-indice, #calendario-intro, #enero-febrero, #marzo, #mes1, #mes2, #mes3, #mes4, #mes5, #mes6, #abril, #mayo-junio, #julio-agosto, #septiembre, #octubre, #noviembre, #diciembre, #grupo-esperando, #pilar, #txukela-grupo, #txukela-txt, #marcapaginas-grupo, #marcapaginas-tipo1, #marcapaginas-tipo2, #marcapaginas-aniversario-txt, #marcapaginas-aniversario-img1, #marcapaginas-aniversario-img2, #fotoprix-grupo, #fotoprix-1, #fotoprix-2, #marcapaginas-india-txt, #osane_y_sobrina, #osane_sobrina, #shrek, #columna1, #columna2, #columna3, #postal-free-local, #postal-free-local2, #postal-free-local-txt, #marcapaginas1, #marcapaginas2, #marcapaginas3, #marcapaginas-titulo, #kerman-bloque1, #kerman-bloque2, #miniaturas-marcadores1, #miniaturas-marcadores2, #miniaturas-marcadores3, #miniaturas-marcadores4, #miniaturas-marcadores5, #chapas-bn-grupo, #chapas-color-grupo, #cursos-de-palmas, #marca-lineas, #chapas, #abanicos, #euskera, #abanicos-grupo-1, #abanicos-grupo-2 { 
 margin-top:20px;
 margin-left:24px;
 }
 
-#libro-colorear-txt, #mes1-txt, #mes2-txt, #mes3-txt, #mes4-txt, #mes5-txt, #mes6-txt, #calendario1-txt, #calendario2-txt, #calendario3-txt, #calendario1b-txt, #calendario2b-txt, #calendario3b-txt, #calendario-portada-img, #calendario-portada-txt1, #calendario-portada-txt2, #esperando, #dibujo, #spiderman, #josu-premio, #kerman2, #kerman3, #kerman5, #kerman6 {
+#libro-colorear-txt, #mes1-txt, #mes2-txt, #mes3-txt, #mes4-txt, #mes5-txt, #mes6-txt, #calendario1-txt, #calendario2-txt, #calendario3-txt, #calendario1b-txt, #calendario2b-txt, #calendario3b-txt, #calendario-portada-img, #calendario-portada-txt1, #calendario-portada-txt2, #esperando, #dibujo, #spiderman, #josu-premio, #kerman2, #kerman3, #kerman5, #kerman6, #proyectos-titulo, #imagina {
 margin-left:24px;
 }
 /* A veces algunos de las capas que están dentro de las principales
@@ -410,6 +410,12 @@ height:120px;
 float:left;
 }
 
+#proyectos-titulo {
+	
+	width:948px;
+	height:90px;
+	float:left;
+}
 
 
 
