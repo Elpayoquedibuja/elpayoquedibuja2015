@@ -1233,16 +1233,10 @@ height:28px;
 }
 
 #titulos {
-color: #565455;
-height:50px;
-float:left;
-color: #20517C;
-height: 45px;
-font-size: 40px;
-text-align: left;
-left: 0px;
-width: 474px;
-background-color: #f1efeb;
+
+width: 948px;
+height: 90px;
+float: left;
 }
 
 #titulos-ext {
