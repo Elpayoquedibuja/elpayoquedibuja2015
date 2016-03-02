@@ -1291,16 +1291,18 @@ width:948px;
  color:#F30;
  }
  
- #ribete1, #ribete-curso, #ribete2, #ribete3, #ribete4, #ribete5, #ribete6, #ribete7, #ribete8, #ribete-editorial, #ribete-nevipens, #ribete-nevipens-2, #ribete1-gypsy, #pero-entonces-que, #ribete-euskera, #ribete-marcadores, #ribete-portafolio, #ribete-humor {
+ #ribete1, #ribete-curso, #ribete2, #ribete3, #ribete4, #ribete5, #ribete6, #ribete7, #ribete8, #ribete-editorial, #ribete-nevipens, #ribete-nevipens-2, #ribete1-gypsy, #pero-entonces-que, #ribete-euskera, #ribete-marcadores, #ribete-portafolio, #ribete-humor, #ribete-libro-para-colorear, #ribete-nombre {
 	 width:948px;
 	 height:73px;
 	 text-align:center;
 	 float:left;
 	 padding:30px 0px 10px 0px;
-	 margin-left:24px;
-	
-	
+	 margin-left:24px;	
 }
+
+/* Imagen que utilizo en los "ribetes":
+<img src="images/ribete.gif" width="434" height="73" alt="" />
+*/
 
 /* RESOLVER APARENTEMENTE EL PROBLEMA CON LOS PADDING DE LAS IMÁGENES (DE LOS ICONOS) */
 /* RESOLVER APARENTEMENTE EL PROBLEMA CON LOS PADDING DE LAS IMÁGENES (DE LOS ICONOS) */

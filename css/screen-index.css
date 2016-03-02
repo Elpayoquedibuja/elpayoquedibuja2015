@@ -2,7 +2,7 @@
 
 
 /*Solo el primer bloque de cada fila - AÑADE EL MARGEN DE 24PX DE LA IZQUIERDA */
-#portada1, #hijos-emigrados-grupo, #bloqueKerandoj1, #quien-soy1, #sim-romi1, #berdintasuna-foto, #bloque4y5, #bloque7, #bloque14, #blogdeapuntes1, #blogdeapuntes5, #blogdeapuntes9, #seccion_kaledorkayiko-1, #seccion_blogdeapuntes, #seccion_humor, #hijos-emigrados-grupo, #quien-soy2, #sim-romi2, #bloqueKerandoj2, #bloqueKerandoj3, #bloqueKerandoj4, #bloque4y5, #bloque7, #bloque8, #bloque9, #bloque11, #bloque12, #bloque15,  #blogdeapuntes1, #blogdeapuntes2, #blogdeapuntes3, #blogdeapuntes5, #blogdeapuntes6, #blogdeapuntes7, #blogdeapuntes9, #blogdeapuntes10, #blogdeapuntes11, #berdintasuna-foto, #berdintasuna-txt, #bloque2, #bloquekerandoj4izda, #bloque10, #bloque13, #bloque18, #blogdeapuntes4, #blogdeapuntes8, #blogdeapuntes12, #bloque15, #bloque19, #bloque20, #quien-soy2, #bloqueKerandoj2, #sim-romi2, #puente-la-salve-img,  #puente-la-salve-txt, #promociones-1, #promociones-2, #promociones-3, #promociones-4, #marcapaginas1, #marcapaginas-titulo, #marcapaginas2, #marcapaginas3, #colorear-1, #colorear-2, #colorear-3, #colorear-4, #col1, #col2, #col3, #col4, #col5,  #por-que-el-payo-que-dibuja, #kerandoj, #articulos-de-promocion, #intrusivo, #intrusivo-1, #intrusivo-2, #intrusivo-3, #social, #social-1, #social-2, #social-3, #ampliar-informacion, #ideas-que-cambian-el-mundo {
+#portada1, #hijos-emigrados-grupo, #bloqueKerandoj1, #quien-soy1, #sim-romi1, #berdintasuna-foto, #bloque4y5, #bloque7, #bloque14, #blogdeapuntes1, #blogdeapuntes5, #blogdeapuntes9, #seccion_kaledorkayiko-1, #seccion_blogdeapuntes, #seccion_humor, #hijos-emigrados-grupo, #quien-soy2, #sim-romi2, #bloqueKerandoj2, #bloqueKerandoj3, #bloqueKerandoj4, #bloque4y5, #bloque7, #bloque8, #bloque9, #bloque11, #bloque12, #bloque15,  #blogdeapuntes1, #blogdeapuntes2, #blogdeapuntes3, #blogdeapuntes5, #blogdeapuntes6, #blogdeapuntes7, #blogdeapuntes9, #blogdeapuntes10, #blogdeapuntes11, #berdintasuna-foto, #berdintasuna-txt, #bloque2, #bloquekerandoj4izda, #bloque10, #bloque13, #bloque18, #blogdeapuntes4, #blogdeapuntes8, #blogdeapuntes12, #bloque15, #bloque19, #bloque20, #quien-soy2, #bloqueKerandoj2, #sim-romi2, #puente-la-salve-img,  #puente-la-salve-txt, #promociones-1, #promociones-2, #promociones-3, #promociones-4, #marcapaginas1, #marcapaginas-titulo, #marcapaginas2, #marcapaginas3, #colorear-1, #colorear-2, #colorear-3, #colorear-4, #col1, #col2, #col3, #col4, #col5,  #por-que-el-payo-que-dibuja, #kerandoj, #articulos-de-promocion, #intrusivo, #intrusivo-1, #intrusivo-2, #intrusivo-3, #social, #social-1, #social-2, #social-3, #ampliar-informacion, #ideas-que-cambian-el-mundo, #josu-bergara, #josu-bergara-txt {
 	margin-top:20px;
 margin-left:24px;
 }
@@ -23,6 +23,19 @@ margin-top:20px;
 
 
 /* CAPAS, POR EL ORDEN EN EL QUE VAN APARECIENDO */
+
+#josu-bergara {
+	width: 600px;
+	height: 250px;
+	float:left;	
+}
+
+#josu-bergara-txt {
+	width: 300px;
+	height: 250px;
+	float:left;	
+}
+
 
 #portada1 {
 background-color:#006699;
@@ -59,6 +72,14 @@ float:left;
 
 }
 
+#premio-sim-romi {
+	width: 998px;
+	height: 172px;
+	background-color: #B682DD;
+	padding: 10px 0 30px 0;
+	margin-top: 20px;
+	float: left;
+}
 
 
 #quien-soy1 {
