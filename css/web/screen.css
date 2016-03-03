@@ -1265,7 +1265,7 @@ top: 0px;
 width:948px;
 }
 
-.fecha {
+.fecha, .fecha2 {
  text-align: center;
  width:250px;
  height:280px;
@@ -1276,6 +1276,18 @@ width:948px;
  color:#06F;
  padding:0px 8px 0px 8px;
  }
+
+.fecha2 {
+
+ font-family: "verdana";
+ font-size:14px;
+ font-weight: normal;
+
+ }
+
+
+
+
 .mes, .año {
  font-size: 14px;
  }
