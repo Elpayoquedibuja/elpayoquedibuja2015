@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /* Márgenes de las capas "principales" */
-#foto-inicio-grupo, #redox, #artevia, #folleto, #folleto-grupo, #arco, #seccion_formacion, #seccion_experiencia, #museo-logo, #recomendaciones_breves, #museo-foto-grupo, #formacion-dibujo-txt, #capitan-rom-txt, #capitan-rom-grupo, #hermion-grupo, #capitan-rom-heroe, #marta, #pero-entonces, #puente-grupo, #estudio-arrieta1, #estudio-arrieta2, #estudio-arrieta3, #puente-quien, #recomen_breves,  #recomendaciones, #pero, #daniel-buren, #bilbao, #mesa-de-trabajo-1, #mesa-de-trabajo-2, #mesa-de-trabajo-3, #swiffycontainer { 
+#foto-inicio-grupo, #redox, #artevia, #folleto, #folleto-grupo, #arco, #seccion_formacion, #seccion_experiencia, #museo-logo, #recomendaciones_breves, #museo-foto-grupo, #formacion-dibujo-txt, #capitan-rom-txt, #capitan-rom-grupo, #hermion-grupo, #capitan-rom-heroe, #marta, #pero-entonces, #puente-grupo, #estudio-arrieta1, #estudio-arrieta2, #estudio-arrieta3, #puente-quien, #recomen_breves,  #recomendaciones, #pero, #daniel-buren, #bilbao, #mesa-de-trabajo-1, #mesa-de-trabajo-2, #mesa-de-trabajo-3, #swiffycontainer, #quien-soy-grupo, #puente-quien2, #puente-grupo2 { 
 margin-top:24px;
 margin-left:24px;
 }
@@ -38,9 +38,17 @@ margin-left:24px;
 
 
 
+#quien-soy-grupo {
+	width: 582px;
+	height: 506px;
+	float: left;
+	text-align: left;
+	border: 1px dotted gray;
+}
+
 #puente-grupo {
-width:338px;
-height:506px;
+width:488px;
+height:456px;
 float:left;
 background-color:red;
 }
@@ -48,11 +56,27 @@ background-color:red;
 
 
 #puente-quien {
-width:586px;
+width:330px;
 height:506px;
 float:left;
 background-color:red;
 }
+
+#puente-grupo2 {
+width:586px;
+height:456px;
+float:left;
+background-color:red;
+}
+
+
+
+#puente-quien2 {
+width:338px;
+height:506px;
+float:left;
+}
+
 
 #recomen_breves {
 width:216px;
