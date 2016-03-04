@@ -75,6 +75,8 @@ float:left;
 	
 }
 
+
+
 #sin-terminar {
 	height:160px;
 	width:948px;
@@ -513,10 +515,6 @@ font-size:9pt;
 color:#333333;
 }
 
-.img-i {
-padding: 0px 8px 0px 0px;
-margin-top:0px;
-}
 
 .noticia-articulo {
 padding: 5px 8px 0px 8px;
@@ -723,6 +721,15 @@ padding: 5px 8px 0px 8px;
 font-family:"Times New Roman", Times, serif;
 font-size:10pt;
 color:#333333;
+}
+
+.aumentar-el-padding-lateral {
+	padding: 0 40px 0 40px;
+}
+
+.img-i {
+padding: 0px 8px 0px 0px;
+margin-top:0px;
 }
 
 
